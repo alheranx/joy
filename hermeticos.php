@@ -38,87 +38,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria1.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal enlace">Cajas</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="hermeticos.php" class="enlace">
-                        <img src="images/categorias/categoria2.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Herméticos</h3>
+                    <a href="cuadrados.php" class="enlace">
+                        <img src="images/productos/producto1.jpg" alt="" width="100%">
+                        <h3 class="text-uppercase text-center font-weight-normal enlace">Cuadrados</h3>
                     </a>
                 </div>
                 <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
                     <a href="#" class="enlace">
-                        <img src="images/categorias/categoria3.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Limpieza</h3>
+                        <img src="images/productos/producto2.jpg" alt="" width="100%">
+                        <h3 class="text-uppercase text-center font-weight-normal">Rectangulares</h3>
                     </a>
                 </div>
                 <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
                     <a href="#" class="enlace">
-                        <img src="images/categorias/categoria4.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cestos</h3>
+                        <img src="images/productos/producto3.jpg" alt="" width="100%">
+                        <h3 class="text-uppercase text-center font-weight-normal">Redondos</h3>
                     </a>
                 </div>
                 <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
                     <a href="#" class="enlace">
-                        <img src="images/categorias/categoria5.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cestos</h3>
+                        <img src="images/productos/producto4.jpg" alt="" width="100%">
+                        <h3 class="text-uppercase text-center font-weight-normal">Cónicos</h3>
                     </a>
                 </div>
                 <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
                     <a href="#" class="enlace">
-                        <img src="images/categorias/categoria6.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cestos</h3>
+                        <img src="images/productos/producto5.jpg" alt="" width="100%">
+                        <h3 class="text-uppercase text-center font-weight-normal">Cristal</h3>
                     </a>
                 </div>
             </div>
         </div>
     </div>
 <?php } else { ?>
-    <div class="container-fluid mt-5 mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria1.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal enlace">Boxes</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="hermeticos.php" class="enlace">
-                        <img src="images/categorias/categoria2.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Hermetic</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria3.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cleaning</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria4.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">baskets</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria5.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">baskets</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/categorias/categoria6.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">baskets</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 <?php } ?>
 
 
