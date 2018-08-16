@@ -3,8 +3,9 @@
 
 
 header {
-    background: #ecdadb;
+    background: #f00;
 }
+
 
 .enlace {
     color: #000!important;
@@ -38,6 +39,16 @@ header {
 
 
 @media (min-width: 960px) {
+    .navbar-nav li {
+        border-right: #fff 1px solid;
+        text-transform: uppercase;
+        padding: 0px 10px!important;
+    }
+
+    .navbar-nav li:last-child {
+        border-right: 0px;
+    }
+
     .telefono {
         font-size: 40px;
     }
