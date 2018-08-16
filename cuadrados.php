@@ -73,4 +73,45 @@
 
 
 
+
+<div class="container">
+
+    <hr class="m-5">
+
+
+    <div class="row">
+        <div class="col-12">
+            <h2 class="text-center text-uppercase mb-5">Cuadrados</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+
+        <div class="col-6 col-md-2">
+            <img src="images/cuadrado1.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+
 <?php include("footer.php"); ?>
