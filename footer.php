@@ -12,45 +12,6 @@
         </div>
 </div>
 
-
-
-<!--
-<form action="enviar.php" method="post" enctype="multipart/form-data" id="hm-formulario-dos">
-        
-    <div class="form-group m-2">
-        <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
-        <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre...">
-    </div>
-
-    <div class="form-group m-2">
-        <label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
-        <input type="text" class="form-control" id="apellido" name="apellido" placeholder="Apellido">
-    </div>
-
-    <div class="form-group m-2">
-        <label for="email">e-mail</label>
-        <input type="email" class="form-control" id="email" name="email" placeholder="Ingrese e-mail...">
-    </div>
-
-    <div class="form-group m-2">
-        <label for="telefono">Teléfono</label>
-        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Ingrese teléfono...">
-    </div>
-
-    <div class="form-group m-2">
-        <label for="ciudad">Teléfono</label>
-        <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Ingrese ciudad o estado...">
-    </div>
-
-    
-    <div class="form-group m-2 text-center">
-        <div id="estado_formulario_dos" class="alert alert-success"></div>
-        <button type="button" class="btn btn-info mb-2 fondo_morado borde_morado" onclick='procesarFormulario("estado_formulario_dos", "hm-formulario-dos")'>
-            SOLICITO INFORMACIÓN
-        </button>
-    </div>
-</form>
--->
 </body>
 
 
@@ -66,10 +27,7 @@ if( window.innerWidth < 600 ){
     // $('div.container-full').addClass('container-fluid').removeClass('container-full');
 }
 
-document.getElementById("estado_formulario_uno").style.display = "none";
 document.getElementById("estado_formulario_dos").style.display = "none";
-
-
 
 function procesarFormulario(statusId, formularioId) {
     var url_que_procesa_el_formulario = "http://hmedia.mx/sendgrid/mail.php";
@@ -85,7 +43,7 @@ function procesarFormulario(statusId, formularioId) {
         encabezado.remitente_nombre         = "Registros Elite Health";
         encabezado.remitente_mail           = "no-reply@cenegenicsmexico.com";
         encabezado.destinatario_nombre      = "Web cenegenicsmexico.com";
-        encabezado.destinatario_mail        = "contacto@cenegenicsmexico.com";
+        encabezado.destinatario_mail        = "alheranx@hotmail.com";
 
     
 
