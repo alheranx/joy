@@ -1,0 +1,24 @@
+{
+    "categorias": [
+        {
+            "id": "cajas", 
+            "categoria" : "Cajas", 
+            "imagen" : "images/categorias/categoria1.jpg"
+        }, 
+        {
+            "id": "hermeticos", 
+            "categoria" : "Herméticos", 
+            "imagen" : "images/categorias/categoria2.jpg"
+        }, 
+        {
+            "id": "limpieza", 
+            "categoria" : "Limpieza", 
+            "imagen" : "images/categorias/categoria3.jpg"
+        }, 
+        {
+            "id": "cestos", 
+            "categoria" : "Cestos", 
+            "imagen" : "images/categorias/categoria4.jpg"
+        }
+    ]
+}
