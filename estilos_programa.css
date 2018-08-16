@@ -3,7 +3,17 @@
 
 
 header {
-    background: #bf2329;
+    background: #ecdadb;
+}
+
+.enlace {
+    color: #000!important;
+    text-decoration: none;
+}
+
+.enlace:hover {
+    color: #f00!important;
+    text-decoration: none;
 }
 
 .telefono {
@@ -103,5 +113,4 @@ font-family: 'PT Sans Narrow', sans-serif;
 border: 0px;
 margin-bottom: 0em;
 font-size: 38px;
-color: #643c5e;
 }
