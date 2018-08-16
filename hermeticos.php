@@ -33,50 +33,42 @@
 
 
 
-<?php if($es) { ?>
-    <div class="container-fluid mt-5 mb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="cuadrados.php" class="enlace">
-                        <img src="images/productos/producto1.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal enlace">Cuadrados</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/productos/producto2.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Rectangulares</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/productos/producto3.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Redondos</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/productos/producto4.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cónicos</h3>
-                    </a>
-                </div>
-                <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                    <a href="#" class="enlace">
-                        <img src="images/productos/producto5.jpg" alt="" width="100%">
-                        <h3 class="text-uppercase text-center font-weight-normal">Cristal</h3>
-                    </a>
-                </div>
+<div class="container-fluid mt-5 mb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
+                <a href="cuadrados.php" class="enlace">
+                    <img src="images/productos/producto1.jpg" alt="" width="100%">
+                    <h3 class="text-uppercase text-center font-weight-normal enlace">Cuadrados</h3>
+                </a>
+            </div>
+            <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
+                <a href="#" class="enlace">
+                    <img src="images/productos/producto2.jpg" alt="" width="100%">
+                    <h3 class="text-uppercase text-center font-weight-normal">Rectangulares</h3>
+                </a>
+            </div>
+            <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
+                <a href="#" class="enlace">
+                    <img src="images/productos/producto3.jpg" alt="" width="100%">
+                    <h3 class="text-uppercase text-center font-weight-normal">Redondos</h3>
+                </a>
+            </div>
+            <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
+                <a href="#" class="enlace">
+                    <img src="images/productos/producto4.jpg" alt="" width="100%">
+                    <h3 class="text-uppercase text-center font-weight-normal">Cónicos</h3>
+                </a>
+            </div>
+            <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
+                <a href="#" class="enlace">
+                    <img src="images/productos/producto5.jpg" alt="" width="100%">
+                    <h3 class="text-uppercase text-center font-weight-normal">Cristal</h3>
+                </a>
             </div>
         </div>
     </div>
-<?php } else { ?>
-    
-<?php } ?>
-
-
-
-
+</div>
 
 
 

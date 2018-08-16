@@ -58,11 +58,6 @@ else {
 
         <div class="col-12 col-xs-8 col-sm-6 col-md-7 align-self-center p-0">
         
-
-
-
-
-            <?php if($es) { ?>
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -72,75 +67,39 @@ else {
                         <ul class="navbar-nav mr-auto">
 
                             <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Nosotros</a>
+                            <a class="nav-link text-light" href="nosotros.php">
+                                <?php echo $es ? 'Nosotros' : 'About Us'; ?>
+                            </a>
                             </li>
 
                             <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Productos</a>
+                            <a class="nav-link text-light" href="productos.php">
+                                <?php echo $es ? 'Productos' : 'Products'; ?>
+                            </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Lo nuevo</a>
+                                <a class="nav-link text-light" href="lonuevo.php">
+                                    <?php echo $es ? 'Lo nuevo' : 'New!'; ?>
+                                </a>
                                 </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Contacto</a>
+                                <a class="nav-link text-light" href="contacto.php">
+                                    <?php echo $es ? 'Contacto' : 'Contact'; ?>
+                                </a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link text-light" href="index.php?lang=en">
-                                        <img src="images/bandera_usa.jpg" alt="" height="20px;">
+                                
+                                <a class="nav-link text-light" href="<?php echo $_SERVER['PHP_SELF'].'?lang='; echo $es ? 'en' : 'es'; ?>">
+                                    <img src="images/bandera_<?php echo $es ? 'usa' : 'mexico'; ?>.jpg" alt="" height="20px;">
                                 </a>
                             </li>
 
                         </ul>
                         </div>
                     </nav>
-
-            <?php } else { ?>
-
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                    
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-
-                            <li class="nav-item">
-                            <a class="nav-link text-light" href="#">About Us</a>
-                            </li>
-
-                            <li class="nav-item">
-                            <a class="nav-link text-light" href="#">Products</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">New!</a>
-                                </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="#">Contact Us</a>
-                            </li>
-
-
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="index.php?lang=es">
-                                        <img src="images/bandera_mexico.jpg" alt="" height="20px;">
-                                </a>
-                            </li>
-                        </ul>
-                        </div>
-                    </nav>
-
-
-            <?php  } ?>
-
-
-
-
-
-
         </div>
     </div>
 </header>
