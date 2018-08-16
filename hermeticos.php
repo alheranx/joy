@@ -1,16 +1,24 @@
 <?php include("header.php"); ?>
 
 
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-uppercase text-center mt-5 mb-5 titulo_categoria">Herméticos</h1>
+        </div>
+    </div>
+</div>
+
 
 
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 <div class="carousel-inner">
-    <!-- <div class="carousel-item active">
-    <img class="d-block w-100" src="images/slider/slider1.jpg" alt="">
-    </div> -->
     <div class="carousel-item active">
-    <img class="d-block w-100" src="images/slider/slider2.jpg" alt="">
+    <img class="d-block w-100" src="images/slider/slider1.jpg" alt="">
     </div>
+    <!-- <div class="carousel-item">
+    <img class="d-block w-100" src="images/slider/slider2.jpg" alt="">
+    </div> -->
 </div>
 
 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

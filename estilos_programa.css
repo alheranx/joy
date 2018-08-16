@@ -12,6 +12,10 @@ header {
     text-decoration: none;
 }
 
+.titulo_categoria {
+    color: #f00;
+}
+
 .enlace:hover {
     color: #f00!important;
     text-decoration: none;
@@ -106,16 +110,6 @@ background: #643c5e;
 
 .fondo_gris {
 background: #e4e4e3;
-}
-
-h1 {
-font-size: 48px;
-display: block !important;
-}
-
-
-h2 {
-font-size: 54px!important;
 }
 
 h3 {
