@@ -5,6 +5,7 @@
         "categoria" : "Cajas", 
         "category" : "Boxes", 
         "imagen" : "images/categorias/cajas.jpg", 
+        "imagen_portada" : "images/categorias_portadas/cajas.jpg", 
         "subcategorias": {
             "contapa" : {
                 "id" : "contapa",
@@ -25,6 +26,7 @@
         "categoria" : "Cocina", 
         "category" : "Kitchen", 
         "imagen" : "images/categorias/cocina.jpg", 
+        "imagen_portada" : "images/categorias_portadas/cocina.jpg", 
         "subcategorias": {
             "escurridores" : {
                 "id"     : "escurridores", 
@@ -68,11 +70,13 @@
         "categoria" : "Herméticos", 
         "category" : "Food Storage", 
         "imagen" : "images/categorias/hermeticos.jpg", 
+        "imagen_portada" : "images/categorias_portadas/hermeticos.jpg", 
         "subcategorias": {
             "cuadrados" : {
                 "id"     : "cuadrados", 
                 "nombre" : "Cuadrados", 
-                "imagen" : "images/productos/producto1.jpg", 
+                "name" : "Square", 
+                "imagen" : "images/subcategorias/cuadrados.jpg", 
                 "productos" : {
                     "651" : {
                         "id" : "651", 
@@ -114,22 +118,26 @@
             "rectangulares" : {
                 "id"     : "rectangulares", 
                 "nombre" : "Rectangulares", 
-                "imagen" : "images/productos/producto2.jpg"
+                "name" : "Rectangular", 
+                "imagen" : "images/subcategorias/rectangulares.jpg"
             }, 
             "redondos" : {
                 "id"     : "redondos", 
                 "nombre" : "Redondos", 
-                "imagen" : "images/productos/producto3.jpg"
+                "name" : "Round", 
+                "imagen" : "images/subcategorias/redondos.jpg"
             }, 
             "conicos" : {
                 "id"     : "conicos", 
                 "nombre" : "Cónicos", 
-                "imagen" : "images/productos/producto4.jpg"
+                "name" : "Conic", 
+                "imagen" : "images/subcategorias/conicos.jpg"
             }, 
             "cristal" : {
                 "id"     : "cristal", 
                 "nombre" : "Cristal", 
-                "imagen" : "images/productos/producto5.jpg"
+                "name" : "Cristal", 
+                "imagen" : "images/subcategorias/cristal.jpg"
             }
         }
     }, 
@@ -138,6 +146,7 @@
         "categoria" : "Botellas", 
         "category" : "Bottles", 
         "imagen" : "images/categorias/botellas.jpg", 
+        "imagen_portada" : "images/categorias_portadas/botellas.jpg", 
         "subcategorias": {
             "graduadas" : {
                 "id"     : "graduadas", 
@@ -161,6 +170,7 @@
         "categoria" : "Limpieza", 
         "category" : "Cleaning", 
         "imagen" : "images/categorias/limpieza.jpg", 
+        "imagen_portada" : "images/categorias_portadas/limpieza.jpg", 
         "subcategorias": {
             "cubetas" : {
                 "id"     : "cubetas", 
@@ -179,6 +189,7 @@
         "categoria" : "Cestos", 
         "category" : "Wastebaskets", 
         "imagen" : "images/categorias/cestos.jpg", 
+        "imagen_portada" : "images/categorias_portadas/cestos.jpg", 
         "subcategorias": {
             "redondos" : {
                 "id"     : "redondos", 

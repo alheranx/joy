@@ -48,7 +48,7 @@ else {
 <body>
 
 
-<header class="container-fluid p-0 mb-5 shadow">
+<header class="container-fluid p-0 mb-3 mb-md-5 shadow">
     <div class="row justify-content-md-between p-0 m-0 shadow">
         <div class="col-4 col-sm-8 col-md-2 col-lg-2 left p-0 m-0">
             <a href="index.php">

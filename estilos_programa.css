@@ -21,8 +21,13 @@ header {
     text-decoration: none;
 }
 
-.telefono {
-    font-size: 22px;
+.producto_item img {
+    height: 80px;
+    max-width: 100%;
+}
+
+.producto_item h3 {
+    font-size: 24px;
 }
 
 .titulo {
@@ -39,6 +44,18 @@ header {
 
 .pie {
     font-size: 22px;
+}
+
+
+@media (min-width: 760px) {
+    .producto_item img {
+        height: 120px;
+        max-width: 100%;
+    }
+    
+    .producto_item h3 {
+        font-size: 32px;
+    }
 }
 
 
@@ -90,22 +107,6 @@ font-family: 'PT Sans Narrow', sans-serif;
 
 .gruesa {
 font-weight: 700;
-}
-
-.texto_morado {
-    color: #643c5e;
-}
-
-.fondo_morado_fuerte {
-    background: #411444;
-}
-
-.fondo_morado {
-background: #643c5e;
-}
-
-.borde_morado {
-    border: #492c45;
 }
 
 .fondo_gris {
