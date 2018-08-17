@@ -3,25 +3,16 @@
 
 
 
-<div class="container">
-    <div class="row">
-        <div class="col-12">
-            <h1 class="text-uppercase text-center mt-5 mb-5 titulo_categoria">
-                <?php echo $es ? 'Productos' : 'Products'; ?>
-            </h1>
+<div class="container-fluid mt-5 mb-5">
+    <div class="container">
+        <div class="row">
 
-            
+            <?php include("seccion_productos.php"); ?>
 
-            <?php echo $es ?
-            
-                '<p>Resumen</p>'
-             :
-             '<p>Resume</p>'
-            ; ?>
-            
         </div>
     </div>
 </div>
+
 
 
 

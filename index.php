@@ -35,22 +35,7 @@
             <div class="row">
 
 
-                <?php 
-                    $string = file_get_contents("productos.json");
-                    $json_a = json_decode($string, true);
-
-
-                    foreach ( $json_a['categorias'] AS $producto ) { ?>
-
-
-                        <div class="col-12 col-xs-6 col-md-4 col-lg-3 p-5">
-                            <a href="#" class="enlace">
-                                <img src="<?php echo $producto['imagen']; ?>" alt="" width="100%">
-                                <h3 class="text-uppercase text-center font-weight-normal enlace"><?php echo $producto['categoria']; ?></h3>
-                            </a>
-                        </div>
-                        
-                <?php } ?>
+                <?php include("seccion_productos.php"); ?>
 
             </div>
         </div>

@@ -1,24 +1,99 @@
 {
-    "categorias": [
-        {
-            "id": "cajas", 
-            "categoria" : "Cajas", 
-            "imagen" : "images/categorias/categoria1.jpg"
-        }, 
-        {
-            "id": "hermeticos", 
-            "categoria" : "Herméticos", 
-            "imagen" : "images/categorias/categoria2.jpg"
-        }, 
-        {
-            "id": "limpieza", 
-            "categoria" : "Limpieza", 
-            "imagen" : "images/categorias/categoria3.jpg"
-        }, 
-        {
-            "id": "cestos", 
-            "categoria" : "Cestos", 
-            "imagen" : "images/categorias/categoria4.jpg"
+    "cajas" : 
+    {
+        "id": "cajas", 
+        "categoria" : "Cajas", 
+        "category" : "Boxes", 
+        "imagen" : "images/categorias/categoria1.jpg", 
+        "subcategorias": {
+            "contapa" : {
+                "nombre" : "Con Tapa"
+            }, 
+            "conbroche" : {
+                "nombre" : "Con Broche"
+            }
         }
-    ]
+    }, 
+    "hermeticos" : {
+        "id": "hermeticos", 
+        "categoria" : "Herméticos", 
+        "category" : "Hermetics", 
+        "imagen" : "images/categorias/categoria2.jpg", 
+        "subcategorias": {
+            "cuadrados" : {
+                "id"     : "cuadrados", 
+                "nombre" : "Cuadrados", 
+                "imagen" : "images/productos/producto1.jpg", 
+                "productos" : {
+                    "651" : {
+                        "id" : "651", 
+                        "capacidad" : "0.37 Lts", 
+                        "medida" : "12 X 12 X 6 cms", 
+                        "piezas" : "24 Pzas.", 
+                        "imagen" : "images/productos/651.jpg"
+                    },
+                    "652" : {
+                        "id" : "652", 
+                        "capacidad" : "0.85 Lts", 
+                        "medida" : "15 X 15 X 7.5 cms", 
+                        "piezas" : "24 Pzas.", 
+                        "imagen" : "images/productos/652.jpg"
+                    },
+                    "653" : {
+                        "id" : "653", 
+                        "capacidad" : "1.70 Lts", 
+                        "medida" : "18 X 18 X 9.5 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/653.jpg"
+                    },
+                    "654" : {
+                        "id" : "654", 
+                        "capacidad" : "3.50 Lts", 
+                        "medida" : "21 X 21 X 12 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/654.jpg"
+                    },
+                    "655" : {
+                        "id" : "655", 
+                        "capacidad" : "6.00 Lts", 
+                        "medida" : "26 X 26 X 13.5 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/655.jpg"
+                    }
+                }
+            }, 
+            "rectangulares" : {
+                "id"     : "rectangulares", 
+                "nombre" : "Rectangulares", 
+                "imagen" : "images/productos/producto2.jpg"
+            }, 
+            "redondos" : {
+                "id"     : "redondos", 
+                "nombre" : "Redondos", 
+                "imagen" : "images/productos/producto3.jpg"
+            }, 
+            "conicos" : {
+                "id"     : "conicos", 
+                "nombre" : "Cónicos", 
+                "imagen" : "images/productos/producto4.jpg"
+            }, 
+            "cristal" : {
+                "id"     : "cristal", 
+                "nombre" : "Cristal", 
+                "imagen" : "images/productos/producto5.jpg"
+            }
+        }
+    }, 
+    "limpieza" : {
+        "id": "limpieza", 
+        "categoria" : "Limpieza", 
+        "category" : "Cleaning", 
+        "imagen" : "images/categorias/categoria3.jpg"
+    }, 
+    "cestos" : {
+        "id": "cestos", 
+        "categoria" : "Cestos", 
+        "category" : "baskets", 
+        "imagen" : "images/categorias/categoria4.jpg"
+    }
 }
