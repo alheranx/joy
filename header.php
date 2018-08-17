@@ -91,8 +91,8 @@ else {
                             </li>
 
                             <li class="nav-item">
-                                
-                                <a class="nav-link text-light" href="<?php echo $_SERVER['PHP_SELF'].'?lang='; echo $es ? 'en' : 'es'; ?>">
+                                <!-- <a class="nav-link text-light" href="<?php echo $_SERVER['PHP_SELF'].'?lang='; echo $es ? 'en' : 'es'; ?>"> -->
+                                <a class="nav-link text-light" href="<?php echo 'index.php?lang='; echo $es ? 'en' : 'es'; ?>">
                                     <img src="images/bandera_<?php echo $es ? 'usa' : 'mexico'; ?>.jpg" alt="" height="20px;">
                                 </a>
                             </li>

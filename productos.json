@@ -4,21 +4,70 @@
         "id": "cajas", 
         "categoria" : "Cajas", 
         "category" : "Boxes", 
-        "imagen" : "images/categorias/categoria1.jpg", 
+        "imagen" : "images/categorias/cajas.jpg", 
         "subcategorias": {
             "contapa" : {
-                "nombre" : "Con Tapa"
+                "id" : "contapa",
+                "nombre" : "Con Tapa", 
+                "imagen" : "images/categorias/default.jpg"
             }, 
             "conbroche" : {
-                "nombre" : "Con Broche"
+                "id" : "conbroche", 
+                "nombre" : "Con Broche", 
+                "imagen" : "images/categorias/default.jpg"
+            }
+        }
+    }, 
+
+    "cocina" : 
+    {
+        "id": "cocina", 
+        "categoria" : "Cocina", 
+        "category" : "Kitchen", 
+        "imagen" : "images/categorias/cocina.jpg", 
+        "subcategorias": {
+            "escurridores" : {
+                "id"     : "escurridores", 
+                "nombre" : "Escurridores", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "palanganas" : {
+                "id"     : "palanganas", 
+                "nombre" : "Palanganas", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "portacubiertos" : {
+                "id"     : "portacubiertos", 
+                "nombre" : "Portacubiertos", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "tazones" : {
+                "id"     : "tazones", 
+                "nombre" : "Tazones", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "jarras" : {
+                "id"     : "jarras", 
+                "nombre" : "Jarras", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "hieleras" : {
+                "id"     : "hieleras", 
+                "nombre" : "Hieleras", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "varios" : {
+                "id"     : "varios", 
+                "nombre" : "Varios", 
+                "imagen" : "images/categorias/default.jpg"
             }
         }
     }, 
     "hermeticos" : {
         "id": "hermeticos", 
         "categoria" : "Herméticos", 
-        "category" : "Hermetics", 
-        "imagen" : "images/categorias/categoria2.jpg", 
+        "category" : "Food Storage", 
+        "imagen" : "images/categorias/hermeticos.jpg", 
         "subcategorias": {
             "cuadrados" : {
                 "id"     : "cuadrados", 
@@ -84,16 +133,63 @@
             }
         }
     }, 
+    "botellas" : {
+        "id": "botellas", 
+        "categoria" : "Botellas", 
+        "category" : "Bottles", 
+        "imagen" : "images/categorias/botellas.jpg", 
+        "subcategorias": {
+            "graduadas" : {
+                "id"     : "graduadas", 
+                "nombre" : "Graduadas", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "sport" : {
+                "id"     : "sport", 
+                "nombre" : "Sport", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "maxcool" : {
+                "id"     : "maxcool", 
+                "nombre" : "Max Cool", 
+                "imagen" : "images/categorias/default.jpg"
+            }
+        }
+    }, 
     "limpieza" : {
         "id": "limpieza", 
         "categoria" : "Limpieza", 
         "category" : "Cleaning", 
-        "imagen" : "images/categorias/categoria3.jpg"
+        "imagen" : "images/categorias/limpieza.jpg", 
+        "subcategorias": {
+            "cubetas" : {
+                "id"     : "cubetas", 
+                "nombre" : "Cubetas", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "recogedores" : {
+                "id"     : "recogedores", 
+                "nombre" : "Recogedores", 
+                "imagen" : "images/categorias/default.jpg"
+            }
+        }
     }, 
     "cestos" : {
         "id": "cestos", 
         "categoria" : "Cestos", 
-        "category" : "baskets", 
-        "imagen" : "images/categorias/categoria4.jpg"
+        "category" : "Wastebaskets", 
+        "imagen" : "images/categorias/cestos.jpg", 
+        "subcategorias": {
+            "redondos" : {
+                "id"     : "redondos", 
+                "nombre" : "Redondos", 
+                "imagen" : "images/categorias/default.jpg"
+            }, 
+            "rectangulares" : {
+                "id"     : "rectangulares", 
+                "nombre" : "Rectangulares", 
+                "imagen" : "images/categorias/default.jpg"
+            }
+        }
     }
 }
