@@ -149,7 +149,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
         <?php 
         foreach ( $array_productos AS $item ) { ?>
             
-            <div class="col-6 col-md-2 producto_pie">
+            <div class="col-6 col-md-2 mb-5 producto_pie">
                 <a href="producto.php?id=<?php echo $producto; ?>&producto_id=<?php echo $item['id']; ?>&categoria=<?php echo $categoria; ?>" class="enlace">
                     <img src="<?php echo $item['imagen']; ?>" class="d-block mx-auto">
                 </a>
