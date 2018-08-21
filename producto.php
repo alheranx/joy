@@ -51,12 +51,12 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
         
             
             <!--    ==============================   TIPOS DE PRODUCTOS    ==============================  -->
-            <div class="col-12 col-md-3 d-none d-md-block">
+            <div class="col-12 col-md-3 d-none d-md-block mt-3 barra_lateral">
                 <?php 
                     foreach ( $archivo_json[$categoria]['subcategorias'] AS $item ) { ?>
                         <div class="col-12 pr-5 pl-5 pb-3 pt-0 m-0">
                             <a href="producto.php?id=<?php echo $item['id']; ?>&categoria=<?php echo $categoria; ?>" class="enlace">
-                                <img src="<?php echo $item['imagen']; ?>" alt="" width="100%">
+                                <img src="<?php echo $item['imagen']; ?>" class="d-block mx-auto">
                                 <h3 class="text-uppercase text-center font-weight-normal" style="font-size: 20px;"><?php echo $es ? $item['nombre'] : $item['name']; ?></h3>
                             </a>
                         </div>
@@ -70,7 +70,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
             <div class="col-12 col-md-8">
                 <div class="row">
                     <div class="col-12">
-                        <h1 class="text-uppercase text-center alargada m-3 m-md-5 titulo_categoria">
+                        <h1 class="text-uppercase text-center alargada m-3 m-md-3 mb-md-5 titulo_categoria">
                                 <?php echo $es ? $actual : $current; ?>
                         </h1>
                     </div>
@@ -81,12 +81,12 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
 
 
 
-                <div class="row text-center text-md-left">
+                <div class="row text-center text-md-left producto_principal">
                     
                     <?php if($hay_producto) { ?>
 
-                            <div class="col-12 col-md-6">
-                                <?php echo $hay_producto ? '<img src="'.$array_item['imagen'].'" alt="" width="100%">' : '<img src="images/productos/producto1.jpg" alt="" width="100%">'; ?>
+                            <div class="col-12 col-md-6 text-center">
+                                <?php echo $hay_producto ? '<img src="'.$array_item['imagen'].'" alt="">' : '<img src="images/productos/producto1.jpg" alt="" width="100%">'; ?>
                             </div>
 
                             <div class="col-12 col-md-6 p-3 p-md-5">
@@ -102,8 +102,8 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                             <?php 
                             foreach ( $array_productos AS $first_item ) { ?>
 
-                                <div class="col-12 col-md-6 p-3 p-md-5">
-                                    <img src="<?php echo $first_item['imagen']; ?>" alt="" width="100%">
+                                <div class="col-12 col-md-6 text-center">
+                                    <img src="<?php echo $first_item['imagen']; ?>" alt="">
                                 </div>
                                 
                                 <div class="col-12 col-md-6">
@@ -149,12 +149,14 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
         <?php 
         foreach ( $array_productos AS $item ) { ?>
             
-            <div class="col-6 col-md-2">
+            <div class="col-6 col-md-2 producto_pie">
                 <a href="producto.php?id=<?php echo $producto; ?>&producto_id=<?php echo $item['id']; ?>&categoria=<?php echo $categoria; ?>" class="enlace">
-                    <img src="<?php echo $item['imagen']; ?>" alt="" width="100%">
+                    <img src="<?php echo $item['imagen']; ?>" class="d-block mx-auto">
                 </a>
-
-                <p class="text-center"><?php echo $item['id']; ?></p>
+                
+                <a href="producto.php?id=<?php echo $producto; ?>&producto_id=<?php echo $item['id']; ?>&categoria=<?php echo $categoria; ?>" class="d-block text-center mt-2 enlace">
+                    <?php echo $item['id']; ?>
+                </a>
             </div>
         <?php } ?>
     </div>

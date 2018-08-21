@@ -14,7 +14,7 @@ $categoria_portada = $json_a[$categoria]['imagen_portada'];
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
-            <h1 class="text-uppercase text-center mt-3 mt-md-5 mb-3 mb-md-5 alargada titulo_categoria">
+            <h1 class="text-uppercase text-center mt-3 mt-md-3 mb-3 mb-md-5 alargada titulo_categoria">
                 <?php echo $es ? $categoria_titulo : $category_title; ?>
             </h1>
         </div>

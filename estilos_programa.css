@@ -120,3 +120,25 @@ border: 0px;
 margin-bottom: 0em;
 font-size: 38px;
 }
+
+
+
+.producto_pie a img {
+    height: 90px!important;
+    max-width: 100%;
+}
+
+.barra_lateral img {
+    height: 90px!important;
+}
+
+.producto_principal b {
+    font-weight: normal;
+    color: #999;
+}
+
+
+.producto_principal img {
+    height: 240px;
+    max-width: 100%;
+}
