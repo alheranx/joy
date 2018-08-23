@@ -25,6 +25,9 @@
                 <p>Our mission is to offer homemakers useful and beautiful plastic products of the best quality available.</p>
                 <p>You may find our products in main stores such as Wal-MArt, Aurrera, Comercial Mexicana, Soriana, Gigante and others.</p>'
             ; ?>
+
+
+            <p class="text-right mt-5"><img src="images/logo_ch.jpg" alt="">es una joya en su hogar</p>
             
         </div>
     </div>

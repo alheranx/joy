@@ -90,6 +90,8 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                             </div>
 
                             <div class="col-12 col-md-6 p-3 p-md-5">
+                                <h6><?php echo $es ? $array_item['subnombre'] : $array_item['subname']; ?></h6>
+                            
                                 <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $array_item['id']; ?><br>
                                 <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $array_item['capacidad']; ?><br>
                                 <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $array_item['medida']; ?><br>
@@ -107,6 +109,8 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                                 </div>
                                 
                                 <div class="col-12 col-md-6">
+                                    <h6><?php echo $es ? $array_item['subnombre'] : $array_item['subname']; ?></h6>
+
                                     <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?><br>
                                     <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?><br>
                                     <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $first_item['medida']; ?><br>
