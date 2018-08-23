@@ -109,7 +109,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                                 </div>
                                 
                                 <div class="col-12 col-md-6">
-                                    <h6><?php echo $es ? $array_item['subnombre'] : $array_item['subname']; ?></h6>
+                                    <h6><?php echo $es ? $first_item['subnombre'] : $first_item['subname']; ?></h6>
 
                                     <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?><br>
                                     <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?><br>

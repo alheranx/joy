@@ -105,7 +105,7 @@ else {
 </header>
 
 
-<div style="position: fixed; right: 0px; bottom: 0px; padding: 15px!important;">
+<div style="position: fixed; right: 0px; bottom: 0px; padding: 15px!important; z-index: 99999">
     <a href="#top" class="d-block">
         <img src="images/up.png" alt="" class="d-block">
     </a>
