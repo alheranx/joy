@@ -4,14 +4,76 @@
         "id": "cajas", 
         "categoria" : "Cajas", 
         "category" : "Boxes", 
-        "imagen" : "images/productos/288.jpg", 
+        "imagen" : "images/categorias/cajas.jpg", 
         "imagen_portada" : "images/categorias_portadas/cajas.jpg", 
-        "subcategorias": { 
+        "subcategorias": {
+            "contapa" : {
+                "id" : "contapa",
+                "nombre" : "Cajas Con Tapa",
+				"name" : "Box", 
+                "imagen" : "images/categorias/cajas-c-tapa.jpg",
+				"productos" : {
+                    "250" : {
+                        "id" : "250", 
+						"subnombre" : "Caja Rectangular Chica c/tapa 5 Lts.",
+						"subname" : "Refrigerator box",
+                        "capacidad" : "5 Lts", 
+                        "medida" : "23 X 34 X 12 cms", 
+                        "piezas" : "6 Pzas.", 
+                        "imagen" : "images/productos/250.jpg"
+                    },
+                    "256" : {
+                        "id" : "256",
+						"subnombre" : "Caja transparente con tapa",
+						"subname" : "Refrigerator box", 
+                        "capacidad" : "11 Lts", 
+                        "medida" : "30 X 37 X 16 cms", 
+                        "piezas" : " Pzas.", 
+                        "imagen" : "images/productos/256.jpg"
+                    },
+                    "286" : {
+                        "id" : "286", 
+						"subnombre" : "Caja c/tapa 0,75 Lts.",
+						"subname" : "Food saver",
+                        "capacidad" : "0.75 Lts", 
+                        "medida" : "22 X 12.5 X 6 cms", 
+                        "piezas" : "24 Pzas.", 
+                        "imagen" : "images/productos/286.jpg"
+                    },
+                    "287" : {
+                        "id" : "287", 
+						"subnombre" : "Caja c/tapa 1,50 Lts.",
+						"subname" : "Food saver",
+                        "capacidad" : "3.50 Lts", 
+                        "medida" : "226 X 16.5 X 7 cms", 
+                        "piezas" : "24 Pzas.", 
+                        "imagen" : "images/productos/287.jpg"
+                    },
+                    "288" : {
+                        "id" : "288",
+						"subnombre" : "Caja c/tapa 3,00 Lts.",
+						"subname" : "Food saver", 
+                        "capacidad" : "3.00 Lts", 
+                        "medida" : "29.5 X 20.5 X 9cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/288.jpg"
+                    },
+	                 "015" : {
+                        "id" : "015",
+						"subnombre" : "Organizador Multiple",
+						"subname" : "Organizer", 
+                        "capacidad" : "", 
+                        "medida" : "25.5 X 20 X 7 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/015.jpg"					
+                    }
+                }
+            }, 
             "conbroche" : {
                 "id" : "conbroche", 
                 "nombre" : "Cajas con Broche", 
 				"name" : "Latch Clear Box", 
-                "imagen" : "images/productos/240.jpg",
+                "imagen" : "images/categorias/caja-c-broche.jpg",
 				"productos" : {
                     "240" : {
                         "id" : "240",
@@ -75,68 +137,6 @@
                         "medida" : "32 X 19 X 24.5 cmss", 
                         "piezas" : "12 Pzas.", 
                         "imagen" : "images/productos/283.jpg"} }				
-            }, 
-            "contapa" : {
-                "id" : "contapa",
-                "nombre" : "Cajas Con Tapa",
-				"name" : "Box", 
-                "imagen" : "images/categorias/cajas-c-tapa.jpg",
-				"productos" : {
-                    "250" : {
-                        "id" : "250", 
-						"subnombre" : "Caja Rectangular Chica c/tapa 5 Lts.",
-						"subname" : "Refrigerator box",
-                        "capacidad" : "5 Lts", 
-                        "medida" : "23 X 34 X 12 cms", 
-                        "piezas" : "6 Pzas.", 
-                        "imagen" : "images/productos/250.jpg"
-                    },
-                    "256" : {
-                        "id" : "256",
-						"subnombre" : "Caja transparente con tapa",
-						"subname" : "Refrigerator box", 
-                        "capacidad" : "11 Lts", 
-                        "medida" : "30 X 37 X 16 cms", 
-                        "piezas" : " Pzas.", 
-                        "imagen" : "images/productos/256.jpg"
-                    },
-                    "286" : {
-                        "id" : "286", 
-						"subnombre" : "Caja c/tapa 0,75 Lts.",
-						"subname" : "Food saver",
-                        "capacidad" : "0.75 Lts", 
-                        "medida" : "22 X 12.5 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
-                        "imagen" : "images/productos/286.jpg"
-                    },
-                    "287" : {
-                        "id" : "287", 
-						"subnombre" : "Caja c/tapa 1,50 Lts.",
-						"subname" : "Food saver",
-                        "capacidad" : "3.50 Lts", 
-                        "medida" : "226 X 16.5 X 7 cms", 
-                        "piezas" : "24 Pzas.", 
-                        "imagen" : "images/productos/287.jpg"
-                    },
-                    "288" : {
-                        "id" : "288",
-						"subnombre" : "Caja c/tapa 3,00 Lts.",
-						"subname" : "Food saver", 
-                        "capacidad" : "3.00 Lts", 
-                        "medida" : "29.5 X 20.5 X 9cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/288.jpg"
-                    },
-	                 "015" : {
-                        "id" : "015",
-						"subnombre" : "Organizador Multiple",
-						"subname" : "Organizer", 
-                        "capacidad" : "", 
-                        "medida" : "25.5 X 20 X 7 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/015.jpg"					
-                    }
-                }
             }
         }
     }, 
@@ -212,6 +212,40 @@
                     }
                 }						
             }, 
+            "palanganas" : {
+                "id"     : "palanganas", 
+                "nombre" : "Palanganas", 
+                "imagen" : "images/categorias/palanganas.jpg",
+				"productos" : {
+                    "200" : {
+                        "id" : "200",
+						"subnombre" : "Palangana Rectangular Chica 5 Lts",
+						"subname" : "Rectangular dishpan", 
+                        "capacidad" : "5 Lts", 
+                        "medida" : "23 X 34 X 11 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/200.jpg"
+                    },
+                    "205" : {
+                        "id" : "205", 
+						"subnombre" : "Palangana Rectangular Gde. 10 Lts",
+						"subname" : "Rectangular Dishpan",
+                        "capacidad" : "10 Lts", 
+                        "medida" : "30 X 37 X 15 cmss", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/205.jpg"
+                    },
+                    "230" : {
+                        "id" : "230",
+						"subnombre" : "Palangana Redonda 12 Lts.", 
+						"subname" : "Round dishpan",
+                        "capacidad" : "12 Lts", 
+                        "medida" : "ø 38 X 15 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/230.jpg"
+                    }
+                }
+            }, 
             "portacubiertos" : {
                 "id"     : "portacubiertos", 
                 "nombre" : "Portacubiertos", 
@@ -252,6 +286,83 @@
                         "medida" : "25 X 37 X 6 cms", 
                         "piezas" : "12 Pzas.", 
                         "imagen" : "images/productos/470.jpg"
+                    }
+                }
+            }, 
+            "tazones" : {
+                "id"     : "tazones", 
+                "nombre" : "Tazones", 
+                "imagen" : "images/categorias/tazones.jpg",
+				"productos" : {
+                    "271" : {
+                        "id" : "271", 
+						"subnombre" : "Tazón Chico",
+						"subname" : "Salad bowl", 
+                        "capacidad" : "2 Lts", 
+                        "medida" : "ø 18 X 10 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/271.jpg"
+                    },
+                    "272" : {
+                        "id" : "272", 
+						"subnombre" : "Tazón Mediano",
+						"subname" : "Salad bowl",
+                        "capacidad" : "3 Lts", 
+                        "medida" : "ø 22 X 11 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/272.jpg"
+                    },
+                    "273" : {
+                        "id" : "273",  
+						"subnombre" : "Tazón/ensaladera grande",
+						"subname" : "Salad bowl",
+                        "capacidad" : "4 Lts", 
+                        "medida" : "ø 25.5 X 11.5 cmss", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/273.jpg"
+                    },
+                    "278" : {
+                        "id" : "278", 
+						"subnombre" : "Batidora/tazón Chica 3 Lts",
+						"subname" : "Salad bowl", 
+                        "capacidad" : "2.5 Lts", 
+                        "medida" : "ø 25.5 X 11.5 cms", 
+                        "piezas" : "12 Pzas. (Foto A)", 
+                        "imagen" : "images/productos/278_279.jpg"					
+                    },
+                    "279" : {
+                        "id" : "279", 
+						"subnombre" : "Batidora/tazón Chica 4 Lts",
+						"subname" : "Salad bowl", 
+                        "capacidad" : "3.5 Lts", 
+                        "medida" : "ø 25 X 10 cms", 
+                        "piezas" : "12 Pzas. (Foto B)", 
+                        "imagen" : "images/productos/278_279.jpg"
+                    }
+                }
+            }, 
+            "jarras" : {
+                "id"     : "jarras", 
+                "nombre" : "Jarras", 
+                "imagen" : "images/categorias/jarras.jpg",
+				"productos" : {
+                    "150" : {
+                        "id" : "150",  
+						"subnombre" : "Jarra con Tapa 2 Lts",
+						"subname" : "Pitcher",
+                        "capacidad" : "2 Lts", 
+                        "medida" : "ø 13 X 23 cmss", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/150.jpg"
+                    },
+                    "185" : {
+                        "id" : "185",  
+						"subnombre" : "Jarra c/tapa Hermética 1.5 Lts",
+						"subname" : "Pitcher",
+                        "capacidad" : "1.5 Lts", 
+                        "medida" : "ø 12 X 20 cms", 
+                        "piezas" : "12 Pzas.", 
+                        "imagen" : "images/productos/185.jpg"
                     }
                 }
             }, 
@@ -383,117 +494,6 @@
                         "medida" : "10 X 43 X 0.3 cms", 
                         "piezas" : "24 Pzas.", 
                         "imagen" : "images/productos/925.jpg" } }
-            }, 
-            "palanganas" : {
-                "id"     : "palanganas", 
-                "nombre" : "Palanganas", 
-                "imagen" : "images/categorias/palanganas.jpg",
-				"productos" : {
-                    "200" : {
-                        "id" : "200",
-						"subnombre" : "Palangana Rectangular Chica 5 Lts",
-						"subname" : "Rectangular dishpan", 
-                        "capacidad" : "5 Lts", 
-                        "medida" : "23 X 34 X 11 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/200.jpg"
-                    },
-                    "205" : {
-                        "id" : "205", 
-						"subnombre" : "Palangana Rectangular Gde. 10 Lts",
-						"subname" : "Rectangular Dishpan",
-                        "capacidad" : "10 Lts", 
-                        "medida" : "30 X 37 X 15 cmss", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/205.jpg"
-                    },
-                    "230" : {
-                        "id" : "230",
-						"subnombre" : "Palangana Redonda 12 Lts.", 
-						"subname" : "Round dishpan",
-                        "capacidad" : "12 Lts", 
-                        "medida" : "ø 38 X 15 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/230.jpg"
-                    }
-                }
-            }, 
-            "jarras" : {
-                "id"     : "jarras", 
-                "nombre" : "Jarras", 
-                "imagen" : "images/categorias/jarras.jpg",
-				"productos" : {
-                    "150" : {
-                        "id" : "150",  
-						"subnombre" : "Jarra con Tapa 2 Lts",
-						"subname" : "Pitcher",
-                        "capacidad" : "2 Lts", 
-                        "medida" : "ø 13 X 23 cmss", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/150.jpg"
-                    },
-                    "185" : {
-                        "id" : "185",  
-						"subnombre" : "Jarra c/tapa Hermética 1.5 Lts",
-						"subname" : "Pitcher",
-                        "capacidad" : "1.5 Lts", 
-                        "medida" : "ø 12 X 20 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/185.jpg"
-                    }
-                }
-            }, 
-            "tazones" : {
-                "id"     : "tazones", 
-                "nombre" : "Tazones", 
-                "imagen" : "images/categorias/tazones.jpg",
-				"productos" : {
-                    "271" : {
-                        "id" : "271", 
-						"subnombre" : "Tazón Chico",
-						"subname" : "Salad bowl", 
-                        "capacidad" : "2 Lts", 
-                        "medida" : "ø 18 X 10 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/271.jpg"
-                    },
-                    "272" : {
-                        "id" : "272", 
-						"subnombre" : "Tazón Mediano",
-						"subname" : "Salad bowl",
-                        "capacidad" : "3 Lts", 
-                        "medida" : "ø 22 X 11 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/272.jpg"
-                    },
-                    "273" : {
-                        "id" : "273",  
-						"subnombre" : "Tazón/ensaladera grande",
-						"subname" : "Salad bowl",
-                        "capacidad" : "4 Lts", 
-                        "medida" : "ø 25.5 X 11.5 cmss", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/273.jpg"
-                    },
-                    "278" : {
-                        "id" : "278", 
-						"subnombre" : "Batidora/tazón Chica 3 Lts",
-						"subname" : "Salad bowl", 
-                        "capacidad" : "2.5 Lts", 
-                        "medida" : "ø 25.5 X 11.5 cms", 
-                        "piezas" : "12 Pzas. (Foto A)", 
-                        "imagen" : "images/productos/278_279.jpg"					
-                    },
-                    "279" : {
-                        "id" : "279", 
-						"subnombre" : "Batidora/tazón Chica 4 Lts",
-						"subname" : "Salad bowl", 
-                        "capacidad" : "3.5 Lts", 
-                        "medida" : "ø 25 X 10 cms", 
-                        "piezas" : "12 Pzas. (Foto B)", 
-                        "imagen" : "images/productos/278_279.jpg"
-                    }
-                }
             }
         }
     }, 
@@ -1044,7 +1044,7 @@
                 "id"     : "recogedores", 
                 "nombre" : "Recogedores", 
 				"name" : "Dust Pan",
-                "imagen" : "images/productos/950.jpg",
+                "imagen" : "images/categorias/recogedores.jpg",
 				"productos" : {
 					 "943" : {
                         "id" : "943",  
@@ -1077,7 +1077,7 @@
                 "id"     : "redondos", 
                 "nombre" : "Redondos", 
 				"name" : "Round",
-                "imagen" : "images/productos/599.jpg",
+                "imagen" : "images/categorias/cestos-redondos.jpg",
 				"productos" : {
 					 "323" : {
                         "id" : "323",  
@@ -1166,7 +1166,7 @@
                 "id"     : "rectangulares", 
                 "nombre" : "Rectangulares", 
 				"name" : "Rectangular",
-                "imagen" : "images/productos/580.jpg",
+                "imagen" : "images/categorias/cestos-rectangulares.jpg",
 				"productos" : {
 					 "517" : {
                         "id" : "517",  
