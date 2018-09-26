@@ -27,7 +27,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
 
 
 <!--    ==============================   MIGAS DE PAN    ==============================  -->
-<div class="container">
+<div class="container mt-5">
     <nav aria-label="breadcrumb bg-light">
         <ol class="breadcrumb">
             
@@ -56,8 +56,8 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                     foreach ( $archivo_json[$categoria]['subcategorias'] AS $item ) { ?>
                         <div class="col-12 pr-5 pl-5 pb-3 pt-0 m-0">
                             <a href="producto.php?id=<?php echo $item['id']; ?>&categoria=<?php echo $categoria; ?>" class="enlace">
-                                <img src="<?php echo $item['imagen']; ?>" class="d-block mx-auto">
-                                <h3 class="text-uppercase text-center font-weight-normal" style="font-size: 20px; background: <?php echo $archivo_json[$categoria]['color']; ?>; color: #fff;"><?php echo $es ? $item['nombre'] : $item['name']; ?></h3>
+                                <!-- <img src="<?php echo $item['imagen']; ?>" class="d-block mx-auto"> -->
+                                <p class="text-uppercase text-center font-weight-light p-2" style="font-weight: 300; font-size: 16px; background: <?php echo $archivo_json[$categoria]['color']; ?>; color: #fff;"><?php echo $es ? $item['nombre'] : $item['name']; ?></p>
                             </a>
                         </div>
                         
