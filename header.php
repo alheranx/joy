@@ -48,61 +48,64 @@ else {
 <body>
 
 
-<header class="container-fluid p-0 mb-3 mb-md-5 shadow" id="top">
-    <div class="row justify-content-md-between p-0 m-0 shadow">
-        <div class="col-4 col-sm-8 col-md-2 col-lg-2 left p-0 m-0">
-            <a href="index.php">
-                <img src="images/logotipo.png" alt="" width="100%">
-            </a>
-        </div>
 
-        <div class="col-12 col-xs-8 col-sm-6 col-md-7 align-self-center p-0">
-        
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                    
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
+<div class="encabezado_wrapper">
+    <header class="container-fluid p-0 mb-3 mb-md-5 shadow encabezado" id="top">
+        <div class="row justify-content-md-between p-0 m-0 shadow">
+            <div class="col-4 col-sm-8 col-md-2 col-lg-2 left p-0 m-0">
+                <a href="index.php">
+                    <img src="images/logotipo.png" alt="" width="100%">
+                </a>
+            </div>
 
-                            <li class="nav-item">
-                            <a class="nav-link text-light" href="nosotros.php">
-                                <?php echo $es ? 'Nosotros' : 'About Us'; ?>
-                            </a>
-                            </li>
+            <div class="col-12 col-xs-8 col-sm-6 col-md-7 align-self-center p-0">
+            
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                        
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
 
-                            <li class="nav-item">
-                            <a class="nav-link text-light" href="productos.php">
-                                <?php echo $es ? 'Productos' : 'Products'; ?>
-                            </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="lonuevo.php">
-                                    <?php echo $es ? 'Lo nuevo' : 'New!'; ?>
+                                <li class="nav-item">
+                                <a class="nav-link text-light" href="nosotros.php">
+                                    <?php echo $es ? 'Nosotros' : 'About Us'; ?>
                                 </a>
                                 </li>
 
-                            <li class="nav-item">
-                                <a class="nav-link text-light" href="contacto.php">
-                                    <?php echo $es ? 'Contacto' : 'Contact'; ?>
+                                <li class="nav-item">
+                                <a class="nav-link text-light" href="productos.php">
+                                    <?php echo $es ? 'Productos' : 'Products'; ?>
                                 </a>
-                            </li>
+                                </li>
 
-                            <li class="nav-item">
-                                <!-- <a class="nav-link text-light" href="<?php echo $_SERVER['PHP_SELF'].'?lang='; echo $es ? 'en' : 'es'; ?>"> -->
-                                <a class="nav-link text-light" href="<?php echo 'index.php?lang='; echo $es ? 'en' : 'es'; ?>">
-                                    <img src="images/bandera_<?php echo $es ? 'usa' : 'mexico'; ?>.jpg" alt="" height="20px;">
-                                </a>
-                            </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="lonuevo.php">
+                                        <?php echo $es ? 'Lo nuevo' : 'New!'; ?>
+                                    </a>
+                                    </li>
 
-                        </ul>
-                        </div>
-                    </nav>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="contacto.php">
+                                        <?php echo $es ? 'Contacto' : 'Contact'; ?>
+                                    </a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <!-- <a class="nav-link text-light" href="<?php echo $_SERVER['PHP_SELF'].'?lang='; echo $es ? 'en' : 'es'; ?>"> -->
+                                    <a class="nav-link text-light" href="<?php echo 'index.php?lang='; echo $es ? 'en' : 'es'; ?>">
+                                        <img src="images/bandera_<?php echo $es ? 'usa' : 'mexico'; ?>.jpg" alt="" height="20px;">
+                                    </a>
+                                </li>
+
+                            </ul>
+                            </div>
+                        </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
+</div> 
 
 
 <div style="position: fixed; right: 0px; bottom: 0px; padding: 15px!important; z-index: 99999">

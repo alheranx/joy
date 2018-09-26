@@ -2,9 +2,10 @@
     "cajas" : 
     {
         "id": "cajas", 
+        "color": "#2dac4f", 
         "categoria" : "Cajas", 
         "category" : "Boxes", 
-        "imagen" : "images/productos/288.jpg", 
+        "imagen" : "images/categorias_fondos/cajas.jpg", 
         "imagen_portada" : "images/categorias_portadas/cajas.jpg", 
         "subcategorias": { 
             "conbroche" : {
@@ -144,9 +145,10 @@
     "cocina" : 
     {
         "id": "cocina", 
+        "color": "#1aaaa4", 
         "categoria" : "Cocina", 
         "category" : "Kitchen", 
-        "imagen" : "images/categorias/cocina.jpg", 
+        "imagen" : "images/categorias_fondos/cocina.jpg", 
         "imagen_portada" : "images/categorias_portadas/cocina.jpg", 
         "subcategorias": {
             "escurridores" : {
@@ -499,9 +501,10 @@
     }, 
     "hermeticos" : {
         "id": "hermeticos", 
+        "color": "#3bc1d7", 
         "categoria" : "Herméticos", 
         "category" : "Food Storage", 
-        "imagen" : "images/categorias/hermeticos.jpg", 
+        "imagen" : "images/categorias_fondos/hermeticos.jpg", 
         "imagen_portada" : "images/categorias_portadas/hermeticos.jpg", 
         "subcategorias": {
             "cuadrados" : {
@@ -825,9 +828,10 @@
     }, 
     "botellas" : {
         "id": "botellas", 
+        "color": "#1aaaa4", 
         "categoria" : "Botellas", 
         "category" : "Bottles", 
-        "imagen" : "images/categorias/botellas.jpg", 
+        "imagen" : "images/categorias_fondos/botellas.jpg", 
         "imagen_portada" : "images/categorias_portadas/botellas.jpg", 
         "subcategorias": {
             "graduadas" : {
@@ -982,9 +986,10 @@
     }, 
     "limpieza" : {
         "id": "limpieza", 
+        "color": "#f07730", 
         "categoria" : "Limpieza", 
         "category" : "Cleaning", 
-        "imagen" : "images/categorias/limpieza.jpg", 
+        "imagen" : "images/categorias_fondos/cubetas.jpg", 
         "imagen_portada" : "images/categorias_portadas/limpieza.jpg", 
         "subcategorias": {
             "cubetas" : {
@@ -1068,9 +1073,10 @@
     }, 
     "cestos" : {
         "id": "cestos", 
+        "color": "#e53d81", 
         "categoria" : "Cestos", 
         "category" : "Wastebaskets", 
-        "imagen" : "images/categorias/cestos.jpg", 
+        "imagen" : "images/categorias_fondos/cestos.jpg", 
         "imagen_portada" : "images/categorias_portadas/cestos.jpg", 
         "subcategorias": {
             "redondos" : {
