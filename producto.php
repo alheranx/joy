@@ -68,6 +68,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
 
             <!--    ==============================   TÍTULO    ==============================  -->
             <div class="col-12 col-md-8">
+                    <!-- 
                 <div class="row">
                     <div class="col-12">
                         <h1 class="text-uppercase text-center alargada m-3 m-md-3 mb-md-5 titulo_categoria">
@@ -75,7 +76,7 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                         </h1>
                     </div>
                 </div>
-
+                        -->
 
 
 
@@ -84,17 +85,23 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                 <div class="row text-center text-md-left producto_principal">
                     
                     <?php if($hay_producto) { ?>
-
-                            <div class="col-12 col-md-6 text-center">
-                                <?php echo $hay_producto ? '<img src="'.$array_item['imagen'].'" alt="">' : '<img src="images/productos/producto1.jpg" alt="" width="100%">'; ?>
+                            <!--
+                            <div class="col-12 text-center">
+                                <?php echo $hay_producto ? '<img src="'.$array_item['imagen'].'" alt="" width="70%">' : '<img src="images/productos/producto1.jpg" alt="" width="100%">'; ?>
                             </div>
+                            -->
 
-                            <div class="col-12 col-md-6 p-3 p-md-5">
+                            <!-- 
+                            <div class="col-12 text-center">
                                 <h6><?php echo $es ? $array_item['subnombre'] : $array_item['subname']; ?></h6>
+                            </div>
+                            -->
+
                             
-                                <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $array_item['id']; ?><br>
-                                <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $array_item['capacidad']; ?><br>
-                                <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $array_item['medida']; ?><br>
+                            <div class="col-12 p-3 p-md-5">
+                                <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $array_item['id']; ?>
+                                <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $array_item['capacidad']; ?>
+                                <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $array_item['medida']; ?>
                                 <b><?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $array_item['piezas']; ?>
                             </div>
                     
@@ -104,25 +111,40 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                             <?php 
                             foreach ( $array_productos AS $first_item ) { ?>
 
-                                <div class="col-12 col-md-6 text-center">
-                                    <img src="<?php echo $first_item['imagen']; ?>" alt="">
+                                <div class="col-12 text-center">
+                                    <img src="<?php echo $first_item['imagen']; ?>" alt="" width="60%">
                                 </div>
                                 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12">
+                                    <!--
                                     <h6><?php echo $es ? $first_item['subnombre'] : $first_item['subname']; ?></h6>
+                                    -->
 
-                                    <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?><br>
-                                    <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?><br>
-                                    <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $first_item['medida']; ?><br>
-                                    <b><?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $first_item['piezas']; ?>
+                                    <div class="d-inline-flex p-2 bd-highlight">
+                                        <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #333 1px solid;">
+                                                <?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?></div>
+                                            </div>
+
+                                        <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #333 1px solid;">
+                                                <?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?></div>
+                                            </div>
+
+                                        <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #333 1px solid;">
+                                                <?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $first_item['medida']; ?></div>
+                                            </div>
+
+                                        <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #333 1px solid;">
+                                                <?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $first_item['piezas']; ?></div>
+                                          
+                                            </div>
+                                    </div>
                                 </div>
                             <?php break; } ?>
 
-
-                            
-
-                            
-                            
                             
                     <?php } ?>
                     
