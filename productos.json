@@ -828,7 +828,7 @@
     }, 
     "botellas" : {
         "id": "botellas", 
-        "color": "#1aaaa4", 
+        "color": "#e53d81", 
         "categoria" : "Botellas", 
         "category" : "Bottles", 
         "imagen" : "images/categorias_fondos/botellas.jpg", 
@@ -1073,7 +1073,7 @@
     }, 
     "cestos" : {
         "id": "cestos", 
-        "color": "#e53d81", 
+        "color": "#7166aa", 
         "categoria" : "Cestos", 
         "category" : "Wastebaskets", 
         "imagen" : "images/categorias_fondos/cestos.jpg", 

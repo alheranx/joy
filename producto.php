@@ -85,11 +85,11 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                 <div class="row text-center text-md-left producto_principal">
                     
                     <?php if($hay_producto) { ?>
-                            <!--
+                            
                             <div class="col-12 text-center">
                                 <?php echo $hay_producto ? '<img src="'.$array_item['imagen'].'" alt="" width="70%">' : '<img src="images/productos/producto1.jpg" alt="" width="100%">'; ?>
                             </div>
-                            -->
+                            
 
                             <!-- 
                             <div class="col-12 text-center">
@@ -98,11 +98,31 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
                             -->
 
                             
-                            <div class="col-12 p-3 p-md-5">
-                                <b><?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $array_item['id']; ?>
-                                <b><?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $array_item['capacidad']; ?>
-                                <b><?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $array_item['medida']; ?>
-                                <b><?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $array_item['piezas']; ?>
+                            <div class="d-inline-flex p-2 bd-highlight">
+                                <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $array_item['id']; ?>
+                                            </div>
+                                </div>
+
+                                <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $array_item['capacidad']; ?>
+                                            </div>
+                                </div>
+
+                                <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $array_item['medida']; ?>
+                                            </div>
+                                </div>
+
+                                <div class="p-1 text-center align-self-stretch">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $array_item['piezas']; ?>
+                                            </div>
+                                </div>
+
                             </div>
                     
                     <?php } else { ?>
@@ -122,22 +142,22 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
 
                                     <div class="d-inline-flex p-2 bd-highlight">
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #333 1px solid;">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
                                                 <?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #333 1px solid;">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
                                                 <?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #333 1px solid;">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
                                                 <?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $first_item['medida']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #333 1px solid;">
+                                            <div class="p-1" style="border: #DDD 1px solid;">
                                                 <?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $first_item['piezas']; ?></div>
                                           
                                             </div>
