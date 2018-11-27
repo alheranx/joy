@@ -145,3 +145,12 @@ font-size: 38px;
 .producto_principal img {
     max-width: 100%;
 }
+
+.descripciones {
+    font-size: 13px;
+}
+
+i {
+    font-style: normal!important;
+    color: #CCC;
+}

@@ -142,23 +142,23 @@ $current             = $archivo_json[$categoria]['subcategorias'][$producto]['na
 
                                     <div class="d-inline-flex p-2 bd-highlight">
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #DDD 1px solid;">
-                                                <?php echo $es ? "CLAVE" : "ITEM"; ?>:</b> <?php echo $first_item['id']; ?></div>
+                                            <div class="p-1 descripciones" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "<i>CLAVE</i>" : "<i>ITEM</i>"; ?>:</b> <?php echo $first_item['id']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #DDD 1px solid;">
-                                                <?php echo $es ? "CAPACIDAD" : "CAPACITY"; ?>:</b> <?php echo $first_item['capacidad']; ?></div>
+                                            <div class="p-1 descripciones" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "<i>CAPACIDAD</i>" : "<i>CAPACITY</i>"; ?>:</b> <?php echo $first_item['capacidad']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #DDD 1px solid;">
-                                                <?php echo $es ? "MEDIDAS" : "DIMENSION"; ?>:</b> <?php echo $first_item['medida']; ?></div>
+                                            <div class="p-1 descripciones" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "<i>MEDIDAS</i>" : "<i>DIMENSION</i>"; ?>:</b> <?php echo $first_item['medida']; ?></div>
                                             </div>
 
                                         <div class="p-1 text-center align-self-stretch">
-                                            <div class="p-1" style="border: #DDD 1px solid;">
-                                                <?php echo $es ? "PZAS. POR CAJA" : "PIECES PER BOX"; ?>:</b> <?php echo $first_item['piezas']; ?></div>
+                                            <div class="p-1 descripciones" style="border: #DDD 1px solid;">
+                                                <?php echo $es ? "<i>PZAS. POR CAJA</i>" : "<i>PIECES PER BOX</i>"; ?>:</b> <?php echo $first_item['piezas']; ?></div>
                                           
                                             </div>
                                     </div>

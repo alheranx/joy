@@ -79,9 +79,9 @@
             }, 
             "contapa" : {
                 "id" : "contapa",
-                "nombre" : "Cajas Con Tapa",
+                "nombre" : "Cajas",
 				"name" : "Box", 
-                "imagen" : "images/categorias/cajas-c-tapa.jpg",
+                "imagen" : "images/productos/288.jpg",
 				"productos" : {
                     "250" : {
                         "id" : "250", 
@@ -154,7 +154,7 @@
             "escurridores" : {
                 "id"     : "escurridores", 
                 "nombre" : "Escurridores", 
-                "imagen" : "images/categorias/escurridor.jpg",
+                "imagen" : "images/productos/315.jpg",
 				"productos" : {
                     "303" : {
                         "id" : "303",
@@ -217,7 +217,7 @@
             "portacubiertos" : {
                 "id"     : "portacubiertos", 
                 "nombre" : "Portacubiertos", 
-                "imagen" : "images/categorias/portacubiertos.jpg",
+                "imagen" : "images/productos/465.jpg",
 				"productos" : {
                     "440" : {
                         "id" : "440", 
@@ -260,7 +260,7 @@
             "hieleras" : {
                 "id"     : "hieleras", 
                 "nombre" : "Hieleras", 
-                "imagen" : "images/categorias/hieleras.jpg",
+                "imagen" : "images/productos/199.jpg",
 				"productos" : {
                     "187" : {
                         "id" : "187",  
@@ -312,7 +312,7 @@
             "varios" : {
                 "id"     : "varios", 
                 "nombre" : "Varios", 
-                "imagen" : "images/categorias/varios.jpg",
+                "imagen" : "images/productos/055.jpg",
 				"productos" : {
                     "010" : {
                         "id" : "010",  
@@ -389,7 +389,7 @@
             "palanganas" : {
                 "id"     : "palanganas", 
                 "nombre" : "Palanganas", 
-                "imagen" : "images/categorias/palanganas.jpg",
+                "imagen" : "images/productos/230.jpg",
 				"productos" : {
                     "200" : {
                         "id" : "200",
@@ -423,7 +423,7 @@
             "jarras" : {
                 "id"     : "jarras", 
                 "nombre" : "Jarras", 
-                "imagen" : "images/categorias/jarras.jpg",
+                "imagen" : "images/productos/150.jpg",
 				"productos" : {
                     "150" : {
                         "id" : "150",  
@@ -448,7 +448,7 @@
             "tazones" : {
                 "id"     : "tazones", 
                 "nombre" : "Tazones", 
-                "imagen" : "images/categorias/tazones.jpg",
+                "imagen" : "images/productos/271.jpg",
 				"productos" : {
                     "271" : {
                         "id" : "271", 
@@ -996,7 +996,7 @@
                 "id"     : "cubetas", 
                 "nombre" : "Cubetas", 
 				"name" : "Pail",
-                "imagen" : "images/categorias/cubetas.jpg",
+                "imagen" : "images/productos/400.jpg",
 				"productos" : {
 					 "400" : {
                         "id" : "400",  
