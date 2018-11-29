@@ -47,7 +47,11 @@ $categoria_portada = $json_a[$categoria]['imagen_portada'];
                     <div class="col-6 col-sm-4 col-md-4 col-lg-3 p-3 mb-3 producto_item">
                         <a href="producto.php?id=<?php echo $producto['id']; ?>&categoria=<?php echo $categoria; ?>" class="text-center enlace" style="border: <?php echo $color; ?> 2px solid; overflow: hidden; display: block;">
                             <img src="<?php echo $producto['imagen']; ?>" alt="" class="d-block" style="width: 100%;">
-                            <h3 class="text-uppercase text-center font-weight-normal" style="background: <?php echo $color; ?>; color: #fff; font-size: 23px;"><?php echo $es ? $producto['nombre'] : $producto['name']; ?></h3>
+                            <h3 class="text-uppercase text-center font-weight-normal" style="background: <?php echo $color; ?>; color: #fff;">
+                                <span class="texto-responsive-1">
+                                    <?php echo $es ? $producto['nombre'] : $producto['name']; ?>
+                                </span>
+                            </h3>
                         </a>
                     </div>
 
