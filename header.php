@@ -45,6 +45,8 @@ else {
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="estilos_programa.css">
 </head>
+
+
 <body>
 
 
@@ -67,24 +69,43 @@ else {
                         
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
+                                
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="index.php">
+                                        <?php echo $es ? 'Inicio' : 'Home'; ?>
+                                    </a>
+                                </li>
+ 
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="productos.php">
+                                        <?php echo $es ? 'Productos' : 'Products'; ?>
+                                    </a>
+                                </li>
 
+
+                                <!-- <li class="nav-item dropdown">
+                                    <a class="nav-link text-light dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" ><?php echo $es ? 'Productos' : 'Products'; ?></a>
+                                    
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item" href="#">Action</a>
+                                        <a class="dropdown-item" href="#">Another action</a>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </div>
+                                </li> -->
+                                
+                                <!-- 
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="lonuevo.php">
+                                    <?php echo $es ? 'Lo nuevo' : 'New!'; ?>
+                                    </a>
+                                </li>
+                                -->
+                                
                                 <li class="nav-item">
                                 <a class="nav-link text-light" href="nosotros.php">
                                     <?php echo $es ? 'Nosotros' : 'About Us'; ?>
                                 </a>
                                 </li>
-
-                                <li class="nav-item">
-                                <a class="nav-link text-light" href="productos.php">
-                                    <?php echo $es ? 'Productos' : 'Products'; ?>
-                                </a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link text-light" href="lonuevo.php">
-                                        <?php echo $es ? 'Lo nuevo' : 'New!'; ?>
-                                    </a>
-                                    </li>
 
                                 <li class="nav-item">
                                     <a class="nav-link text-light" href="contacto.php">

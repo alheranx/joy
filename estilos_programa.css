@@ -13,6 +13,31 @@ header {
     background: #f00;
 }
 
+/* html {
+    min-height: 100%;
+    position: relative;
+}
+body {
+margin: 0;
+margin-bottom: 100px;
+}
+footer {
+background-color: black;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 100px;
+color: white;
+} */
+
+/* .dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.dropdown > .dropdown-toggle:active {
+    
+    pointer-events: none;
+}
+*/
 
 .enlace {
     color: #000!important;

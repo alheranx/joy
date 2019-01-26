@@ -1,16 +1,22 @@
-<div class="container-fluid bg-secondary mt-5">
-        <div class="row">
-                <div class="col-12">
-                    <p class="text-light text-center p-3 delgada">
-                        <?php if($es) { ?>
-                            Teléfonos.: (01 55) 5760-5544 / 01 800 715 1600
-                        <?php } else { ?>
-                            Telephones.: (01 55) 5760-5544 / 01 800 715 1600
-                        <?php } ?>
-                    </p>
-                </div>
+<footer class="container-fluid bg-secondary mt-5">
+        <div class="container">
+            <div class="row">
+                    <div class="col-12 p-3">
+                        <p class="text-light text-center delgada">
+                            <?php if($es) { ?>
+                                Teléfonos.: (01 55) 5760-5544 / 01 800 715 1600
+                            <?php } else { ?>
+                                Telephones.: (01 55) 5760-5544 / 01 800 715 1600
+                            <?php } ?>
+                        </p>
+
+                        <p class="text-light text-center delgada">
+                            <a href="mailto:mail@gmail.com" class="text-center text-light">mail@gmail.com</a>
+                        </p>
+                    </div>
+            </div>
         </div>
-</div>
+</footer>
 
 </body>
 
@@ -18,6 +24,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 
 <script>
 $('.carousel').carousel();

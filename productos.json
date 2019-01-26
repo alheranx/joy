@@ -19,8 +19,8 @@
 						"subnombre" : "Caja c/tapa 15 Lts.",
 						"subname" : "Latch Clear Box", 
                         "capacidad" : "15 Lts", 
-                        "medida" : "34 X 45 X 16.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "34 x 45 x 16.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/240.jpg"
                     },
                     "245" : {
@@ -28,8 +28,8 @@
 						"subnombre" : "Caja c/tapa 24 Lts.",
 						"subname" : "Latch Clear Box",
                         "capacidad" : "24 Lts", 
-                        "medida" : "34 X 45 X 24 cms", 
-                        "piezas" : " Pzas.", 
+                        "medida" : "34 x 45 x 24 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/245.jpg"
                     },
                     "260" : {
@@ -37,8 +37,8 @@
 						"subnombre" : "Caja c/tapa 20 Lts.",
 						"subname" : "Latch Clear Box",
                         "capacidad" : "20 Lts", 
-                        "medida" : "45 X 34 X 21 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "45 x 34 x 21 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/260.jpg"
                     },
                     "265" : {
@@ -46,8 +46,8 @@
 						"subnombre" : "Caja c/tapa 29 Lts.",
 						"subname" : "Latch Clear Box", 
                         "capacidad" : "29 Lts", 
-                        "medida" : "45 X 34 X 27 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "45 x 34 x 27 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/265.jpg"
                     },
                     "281" : {
@@ -55,8 +55,8 @@
 						"subnombre" : "Caja c/tapa 2.4 Lts.",
 						"subname" : "Latch Clear Box", 
                         "capacidad" : "2.4 Lts", 
-                        "medida" : "20.5 X 12 X 16 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "20.5 x 12 x 16 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/281.jpg"
 					},
                     "282" : {
@@ -64,8 +64,8 @@
 						"subnombre" : "Caja c/tapa 6 Lts.",
 						"subname" : "Latch Clear Box", 
                         "capacidad" : "6 Lts", 
-                        "medida" : "26 X 17 X 20 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "26 x 17 x 20 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/282.jpg"
 					},
 	                 "283" : {
@@ -73,8 +73,8 @@
 						"subnombre" : "Caja c/tapa 10 Lts.",
 						"subname" : "Latch Clear Box",
                         "capacidad" : "10 Lts", 
-                        "medida" : "32 X 19 X 24.5 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "32 x 19 x 24.5 cmss", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/283.jpg"} }				
             }, 
             "contapa" : {
@@ -83,31 +83,22 @@
 				"name" : "Box", 
                 "imagen" : "images/productos/288.jpg",
 				"productos" : {
-                    "250" : {
-                        "id" : "250", 
-						"subnombre" : "Caja Rectangular Chica c/tapa 5 Lts.",
-						"subname" : "Refrigerator box",
-                        "capacidad" : "5 Lts", 
-                        "medida" : "23 X 34 X 12 cms", 
-                        "piezas" : "6 Pzas.", 
-                        "imagen" : "images/productos/250.jpg"
-                    },
-                    "256" : {
-                        "id" : "256",
-						"subnombre" : "Caja transparente con tapa",
-						"subname" : "Refrigerator box", 
-                        "capacidad" : "11 Lts", 
-                        "medida" : "30 X 37 X 16 cms", 
-                        "piezas" : " Pzas.", 
-                        "imagen" : "images/productos/256.jpg"
+                    "015" : {
+                       "id" : "015",
+                       "subnombre" : "Organizador Multiple",
+                       "subname" : "Organizer", 
+                       "capacidad" : "", 
+                       "medida" : "25.5 x 20 x 7 cms", 
+                       "piezas" : "12", 
+                       "imagen" : "images/productos/015.jpg"					
                     },
                     "286" : {
                         "id" : "286", 
 						"subnombre" : "Caja c/tapa 0,75 Lts.",
 						"subname" : "Food saver",
                         "capacidad" : "0.75 Lts", 
-                        "medida" : "22 X 12.5 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "22 x 12.5 x 6 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/286.jpg"
                     },
                     "287" : {
@@ -115,8 +106,8 @@
 						"subnombre" : "Caja c/tapa 1,50 Lts.",
 						"subname" : "Food saver",
                         "capacidad" : "3.50 Lts", 
-                        "medida" : "226 X 16.5 X 7 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "226 x 16.5 x 7 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/287.jpg"
                     },
                     "288" : {
@@ -124,18 +115,36 @@
 						"subnombre" : "Caja c/tapa 3,00 Lts.",
 						"subname" : "Food saver", 
                         "capacidad" : "3.00 Lts", 
-                        "medida" : "29.5 X 20.5 X 9cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "29.5 x 20.5 x 9cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/288.jpg"
                     },
-	                 "015" : {
-                        "id" : "015",
-						"subnombre" : "Organizador Multiple",
-						"subname" : "Organizer", 
-                        "capacidad" : "", 
-                        "medida" : "25.5 X 20 X 7 cms", 
-                        "piezas" : "12 Pzas.", 
-                        "imagen" : "images/productos/015.jpg"					
+                    "290" : {
+                        "id" : "290",
+						"subnombre" : "Caja c/tapa 4 Lts.",
+						"subname" : "Box 4 Lts.", 
+                        "capacidad" : "4 Lts", 
+                        "medida" : "27 x 18 x 10.5 cms", 
+                        "piezas" : "12", 
+                        "imagen" : "images/productos/290.jpg"
+                    },
+                    "250" : {
+                        "id" : "250", 
+						"subnombre" : "Caja Rectangular Chica c/tapa 5 Lts.",
+						"subname" : "Refrigerator box",
+                        "capacidad" : "5 Lts", 
+                        "medida" : "23 x 34 x 12 cms", 
+                        "piezas" : "6", 
+                        "imagen" : "images/productos/250.jpg"
+                    },
+                    "256" : {
+                        "id" : "256",
+						"subnombre" : "Caja transparente con tapa",
+						"subname" : "Refrigerator box", 
+                        "capacidad" : "11 Lts", 
+                        "medida" : "30 x 37 x 16 cms", 
+                        "piezas" : "", 
+                        "imagen" : "images/productos/256.jpg"
                     }
                 }
             }
@@ -160,32 +169,32 @@
                         "id" : "303",
 						"subnombre" : "Protector de Fregadero",
 						"subname" : "Sink mat",
-                        "medida" : "30 X 38 X 0.2 cms.", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "30 x 38 x 0.2 cms.", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/303.jpg"
                     },
                     "305" : {
                         "id" : "305",
 						"subnombre" : "Base Escurridor de Vajilla",
 						"subname" : "Drainboard",
-                        "medida" : "53 X 42 X 3 cms.", 
-                        "piezas" : "6 Pzas.", 
+                        "medida" : "53 x 42 x 3 cms.", 
+                        "piezas" : "6", 
                         "imagen" : "images/productos/305.jpg"
                     },
                     "315" : {
                         "id" : "315", 
 						"subnombre" : "Escurridor Gigante",
 						"subname" : "Dish Rack",
-                        "medida" : "36 X 47 X 12 cms", 
-                        "piezas" : "6 Pzas.", 
+                        "medida" : "36 x 47 x 12 cms", 
+                        "piezas" : "6", 
                         "imagen" : "images/productos/315.jpg"
                     },
                     "325" : {
                         "id" : "325", 
 						"subnombre" : "Jgo. Escurridor y Base para Vajilla",
 						"subname" : "2 Piece sink set",
-                        "medida" : "53 X 42 X 15 cms", 
-                        "piezas" : "6 Pzas.", 
+                        "medida" : "53 x 42 x 15 cms", 
+                        "piezas" : "6", 
                         "imagen" : "images/productos/325.jpg"
                     },
                     "330" : {
@@ -193,7 +202,7 @@
 						"subnombre" : "Base Escurridor", 
 						"subname" : "Drainboard",
                         "medida" : "45 x 37 x 4 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/330.jpg"
 					},
                     "345" : {
@@ -201,7 +210,7 @@
 						"subnombre" : "Escurridor",
 						"subname" : "Dish rack",
                         "medida" : "43 x 33.5 x 13 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/345.jpg"
 					},
 	                 "375" : {
@@ -209,7 +218,7 @@
 						"subnombre" : "Jgo. Escurridor c/base",
 						"subname" : "Dish rack Kit",
                         "medida" : "45 x 37 x 14 cms", 
-                        "piezas" : "6 Pzas.", 
+                        "piezas" : "6", 
                         "imagen" : "images/productos/375.jpg"
                     }
                 }						
@@ -224,8 +233,8 @@
 						"subnombre" : "Portacubiertos Sencillo",
 						"subname" : "Cutlery tray",
                         "divisiones" : "4", 
-                        "medida" : "18 X 30 X 4 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "18 x 30 x 4 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/440.jpg"
                     },
                     "455" : {
@@ -233,8 +242,8 @@
 						"subnombre" : "Portacubiertos",
 						"subname" : "Deluxe cutlery tray",
                         "divisiones" : "5", 
-                        "medida" : "25 X 33 X 5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "25 x 33 x 5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/455.jpg"
                     },
                     "465" : {
@@ -242,8 +251,8 @@
 						"subnombre" : "Portacubiertos",
 						"subname" : "Cutlery tray",
                         "divisiones" : "5", 
-                        "medida" : "25 X 33 X 4.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "25 x 33 x 4.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/465.jpg"
                     },
                     "470" : {
@@ -251,8 +260,8 @@
 						"subnombre" : "Portacubiertos c/charola Deslizable",
 						"subname" : "Double cutlery tray", 
                         "divisiones" : "8", 
-                        "medida" : "25 X 37 X 6 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "25 x 37 x 6 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/470.jpg"
                     }
                 }
@@ -267,8 +276,8 @@
 						"subnombre" : "Hielos en Barritas",
 						"subname" : "Ice cube tray",
                         "capacidad" : "12 barritas", 
-                        "medida" : "11 X 28 X 3.5 cmss", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "11 x 28 x 3.5 cmss", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/187.jpg"
                     },
                     "190" : {
@@ -276,8 +285,8 @@
 						"subnombre" : "Charola para Cubos de Hielo",
 						"subname" : "Ice cube tray",
                         "capacidad" : "12 cubos", 
-                        "medida" : "10 X 28 X 3 cms", 
-                        "piezas" : "36 Pzas.", 
+                        "medida" : "10 x 28 x 3 cms", 
+                        "piezas" : "36", 
                         "imagen" : "images/productos/190.jpg"
                     },
                     "193" : {
@@ -285,8 +294,8 @@
 						"subnombre" : "Molde para Cubos de Hielo",
 						"subname" : "Ice cube tray",
                         "capacidad" : "14 cubos", 
-                        "medida" : "11 X 28 X 4.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "11 x 28 x 4.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/193.jpg"
                     },
                     "195" : {
@@ -294,7 +303,7 @@
 						"subnombre" : "Jgo. con 3 Charolas p/cubos de Hielo",
 						"subname" : "3 set ice cube tray",
                         "capacidad" : "12 cubos", 
-                        "medida" : "10 X 28 X 9 cms", 
+                        "medida" : "10 x 28 x 9 cms", 
                         "piezas" : "12 Jgos.", 
                         "imagen" : "images/productos/195.jpg"
                     },
@@ -303,7 +312,7 @@
 						"subnombre" : "Jgo. con 2 Moldes p/cubos de Hielo",
 						"subname" : "2 set ice cube tray",
                         "capacidad" : "14 cubos", 
-                        "medida" : "11 X 28 X 8 cms", 
+                        "medida" : "11 x 28 x 8 cms", 
                         "piezas" : "12 Jgos.", 
                         "imagen" : "images/productos/199.jpg"
                     }
@@ -318,72 +327,72 @@
                         "id" : "010",  
 						"subnombre" : "Pinza para Ensalada",
 						"subname" : "Serv a salad tongs",
-                        "medida" : "6 X 26 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "6 x 26 x 6 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/010.jpg"
                     },
                     "055" : {
                         "id" : "055",  
 						"subnombre" : "Banco Multiusos",
 						"subname" : "Step Stool",
-                        "medida" : "38 X 30 X 23 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "38 x 30 x 23 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/055.jpg"
                     },
                     "105" : {
                         "id" : "105",  
 						"subnombre" : "Cubierta para Microondas",
 						"subname" : "Microwave Cover",
-                        "medida" : "26.5 X 8.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "26.5 x 8.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/105.jpg"
                     },
                     "137" : {
                         "id" : "137",  
 						"subnombre" : "Servilletero",
 						"subname" : "Napkin Holder",
-                        "medida" : "12 X 12 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "12 x 12 x 6 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/137.jpg"
                     },
                     "225" : {
                         "id" : "225",  
 						"subnombre" : "Rack Apilable",
 						"subname" : "Stack Bin",
-                        "medida" : "45 X 29 X 16 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "45 x 29 x 16 cmss", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/225.jpg"
 					},
                     "227" : {
                         "id" : "227",  
 						"subnombre" : "Caja Apilable",
 						"subname" : "Stack Basket",
-                        "medida" : "37 X 29 X 13 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "37 x 29 x 13 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/227.jpg"
 					},
 	                 "292" : {
                         "id" : "292",   
 						"subnombre" : "Colador con Vertederos",
 						"subname" : "Double spout colander",
-                        "medida" : "19 X 31 X 9 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "19 x 31 x 9 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/292.jpg"
 					},
 	                 "295" : {
                         "id" : "295", 
 						"subnombre" : "Colador de Verduras",
 						"subname" : "Vegetables colander",
-                        "medida" : "26.5 X 29 X 10 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "26.5 x 29 x 10 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/295.jpg"
 					},
 	                 "925" : {
                         "id" : "925",  
 						"subnombre" : "Matamoscas",
 						"subname" : "Fly swatter",
-                        "medida" : "10 X 43 X 0.3 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "10 x 43 x 0.3 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/925.jpg" } }
             }, 
             "palanganas" : {
@@ -396,8 +405,8 @@
 						"subnombre" : "Palangana Rectangular Chica 5 Lts",
 						"subname" : "Rectangular dishpan", 
                         "capacidad" : "5 Lts", 
-                        "medida" : "23 X 34 X 11 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "23 x 34 x 11 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/200.jpg"
                     },
                     "205" : {
@@ -405,8 +414,8 @@
 						"subnombre" : "Palangana Rectangular Gde. 10 Lts",
 						"subname" : "Rectangular Dishpan",
                         "capacidad" : "10 Lts", 
-                        "medida" : "30 X 37 X 15 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "30 x 37 x 15 cmss", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/205.jpg"
                     },
                     "230" : {
@@ -414,8 +423,8 @@
 						"subnombre" : "Palangana Redonda 12 Lts.", 
 						"subname" : "Round dishpan",
                         "capacidad" : "12 Lts", 
-                        "medida" : "ø 38 X 15 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 38 x 15 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/230.jpg"
                     }
                 }
@@ -430,8 +439,8 @@
 						"subnombre" : "Jarra con Tapa 2 Lts",
 						"subname" : "Pitcher",
                         "capacidad" : "2 Lts", 
-                        "medida" : "ø 13 X 23 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 13 x 23 cmss", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/150.jpg"
                     },
                     "185" : {
@@ -439,8 +448,8 @@
 						"subnombre" : "Jarra c/tapa Hermética 1.5 Lts",
 						"subname" : "Pitcher",
                         "capacidad" : "1.5 Lts", 
-                        "medida" : "ø 12 X 20 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 12 x 20 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/185.jpg"
                     }
                 }
@@ -455,8 +464,8 @@
 						"subnombre" : "Tazón Chico",
 						"subname" : "Salad bowl", 
                         "capacidad" : "2 Lts", 
-                        "medida" : "ø 18 X 10 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 18 x 10 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/271.jpg"
                     },
                     "272" : {
@@ -464,8 +473,8 @@
 						"subnombre" : "Tazón Mediano",
 						"subname" : "Salad bowl",
                         "capacidad" : "3 Lts", 
-                        "medida" : "ø 22 X 11 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 22 x 11 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/272.jpg"
                     },
                     "273" : {
@@ -473,8 +482,8 @@
 						"subnombre" : "Tazón/ensaladera grande",
 						"subname" : "Salad bowl",
                         "capacidad" : "4 Lts", 
-                        "medida" : "ø 25.5 X 11.5 cmss", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 25.5 x 11.5 cmss", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/273.jpg"
                     },
                     "278" : {
@@ -482,8 +491,8 @@
 						"subnombre" : "Batidora/tazón Chica 3 Lts",
 						"subname" : "Salad bowl", 
                         "capacidad" : "2.5 Lts", 
-                        "medida" : "ø 25.5 X 11.5 cms", 
-                        "piezas" : "12 Pzas. (Foto A)", 
+                        "medida" : "ø 25.5 x 11.5 cms", 
+                        "piezas" : "12 (Foto A)", 
                         "imagen" : "images/productos/278_279.jpg"					
                     },
                     "279" : {
@@ -491,8 +500,8 @@
 						"subnombre" : "Batidora/tazón Chica 4 Lts",
 						"subname" : "Salad bowl", 
                         "capacidad" : "3.5 Lts", 
-                        "medida" : "ø 25 X 10 cms", 
-                        "piezas" : "12 Pzas. (Foto B)", 
+                        "medida" : "ø 25 x 10 cms", 
+                        "piezas" : "12 (Foto B)", 
                         "imagen" : "images/productos/278_279.jpg"
                     }
                 }
@@ -518,8 +527,8 @@
 						"subnombre" : "Hermético Cuadrado",
 						"subname" : "Square freezer", 
                         "capacidad" : "0.37 Lts", 
-                        "medida" : "12 X 12 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "12 x 12 x 6 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/651.jpg"
                     },
                     "652" : {
@@ -527,8 +536,8 @@
 						"subnombre" : "Hermético Cuadrado",
 						"subname" : "Square freezer",
                         "capacidad" : "0.85 Lts", 
-                        "medida" : "15 X 15 X 7.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "15 x 15 x 7.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/652.jpg"
                     },
                     "653" : {
@@ -536,8 +545,8 @@
 						"subnombre" : "Hermético Cuadrado",
 						"subname" : "Square freezer",
                         "capacidad" : "1.70 Lts", 
-                        "medida" : "18 X 18 X 9.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "18 x 18 x 9.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/653.jpg"
                     },
                     "654" : {
@@ -545,8 +554,8 @@
 						"subnombre" : "Hermético Cuadrado",
 						"subname" : "Square freezer",
                         "capacidad" : "3.50 Lts", 
-                        "medida" : "21 X 21 X 12 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "21 x 21 x 12 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/654.jpg"
                     },
                     "655" : {
@@ -554,8 +563,8 @@
 						"subnombre" : "Hermético Cuadrado",
 						"subname" : "Square freezer",
                         "capacidad" : "6.00 Lts", 
-                        "medida" : "26 X 26 X 13.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "26 x 26 x 13.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/655.jpg"
                     }
                 }
@@ -571,8 +580,8 @@
 						"subnombre" : "Hermético rectangular",
 						"subname" : "Rectangular freezer",
                         "capacidad" : "0.20 Lts", 
-                        "medida" : "10 X 6.5 X 4.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "10 x 6.5 x 4.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/831.jpg"
                     },
                     "832" : {
@@ -580,8 +589,8 @@
 						"subnombre" : "Hermético rectangular",
 						"subname" : "Rectangular freezer",
                         "capacidad" : "0.30 Lts", 
-                        "medida" : "13 X 10 X 4 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "13 x 10 x 4 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/832.jpg"
                     },
                     "833" : {
@@ -589,8 +598,8 @@
 						"subnombre" : "Hermético rectangular",
 						"subname" : "Rectangular freezer",
                         "capacidad" : "0.50 Lts", 
-                        "medida" : "15 X 10 X 4.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "15 x 10 x 4.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/833.jpg"
                     },
                     "834" : {
@@ -598,8 +607,8 @@
 						"subnombre" : "Hermético rectangular",
 						"subname" : "Rectangular freezer",
                         "capacidad" : "0.80 Lts", 
-                        "medida" : "17 X 12 X 5.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "17 x 12 x 5.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/834.jpg"
 					 },
                     "842" : {
@@ -607,8 +616,8 @@
 						"subnombre" : "Hermético con divisiones",
 						"subname" : "Divisions freezer",
                         "capacidad" : "0.30 Lts", 
-                        "medida" : "13 X 10 X 4 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "13 x 10 x 4 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/842.jpg"
 					},
                     "843" : {
@@ -616,8 +625,8 @@
 						"subnombre" : "Hermético con divisiones",
 						"subname" : "Divisions freezer",
                         "capacidad" : "0.50 Lts", 
-                        "medida" : "15 X 10 X 4.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "15 x 10 x 4.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/843.jpg"
 					 },
                     "844" : {
@@ -625,8 +634,8 @@
 						"subnombre" : "Hermético con divisiones",
 						"subname" : "Divisions freezer",
                         "capacidad" : "0.80 Lts", 
-                        "medida" : "17 X 12 X 5.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "17 x 12 x 5.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/844.jpg"
                     }
                 }
@@ -642,8 +651,8 @@
 						"subnombre" : "Hermético redondo green",
 						"subname" : "Round freezer",
                         "capacidad" : "0.06 Lts", 
-                        "medida" : "ø 7.5 X 3.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 7.5 x 3.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/961.jpg"
 					},
                     "962" : {
@@ -651,8 +660,8 @@
 						"subnombre" : "Hermético redondo green",
 						"subname" : "Round freezer",
                         "capacidad" : "0.120 Lts", 
-                        "medida" : "ø 9.5 X 45 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 9.5 x 45 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/962.jpg"
 					},
                     "963" : {
@@ -660,8 +669,8 @@
 						"subnombre" : "Hermético redondo green",
 						"subname" : "Round freezer",
                         "capacidad" : "0.25 Lts", 
-                        "medida" : "ø 11.5 X 5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 11.5 x 5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/963.jpg"
 					},
                     "964" : {
@@ -669,8 +678,8 @@
 						"subnombre" : "Hermético redondo green",
 						"subname" : "Round freezer",
                         "capacidad" : "0.45 Lts", 
-                        "medida" : "ø 13.5 X 6 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 13.5 x 6 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/964.jpg"																		
 					},
                     "965" : {
@@ -678,8 +687,8 @@
 						"subnombre" : "Hermético redondo green",
 						"subname" : "Round freezer",
                         "capacidad" : "0.85 Lts", 
-                        "medida" : "ø 15.5 X 7 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 15.5 x 7 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/965.jpg"
                     }
                 }
@@ -695,8 +704,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.176 Lts", 
-                        "medida" : "ø 8 X 5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8 x 5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/971.jpg"
 					},
                     "972" : {
@@ -704,8 +713,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.50 Lts", 
-                        "medida" : "ø 12 X 7 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 12 x 7 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/972.jpg"
 					},
                     "973" : {
@@ -713,8 +722,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.10 Lts", 
-                        "medida" : "ø 16 X 8 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 16 x 8 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/973.jpg"
 					},
                     "974" : {
@@ -722,8 +731,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "3.20 Lts", 
-                        "medida" : "ø 21 X 10 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 21 x 10 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/974.jpg"
 					},
                     "981" : {
@@ -731,8 +740,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.25 Lts", 
-                        "medida" : "ø 12 X 10 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 12 x 10 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/981.jpg"
 					},
                     "982" : {
@@ -740,8 +749,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.75 Lts", 
-                        "medida" : "ø 9.5 X 45 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 9.5 x 45 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/982.jpg"
 					},
                     "983" : {
@@ -749,8 +758,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "1.90 Lts", 
-                        "medida" : "ø 16 X 13 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 16 x 13 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/983.jpg"
 					},
                     "984" : {
@@ -758,8 +767,8 @@
 						"subnombre" : "Hermético cónico",
 						"subname" : "Conic freezer",
                         "capacidad" : "3.40 Lts", 
-                        "medida" : "ø 21 X 14 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 21 x 14 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/984.jpg"
 					},
                     "991" : {
@@ -767,8 +776,8 @@
 						"subnombre" : "Hermético vaso",
 						"subname" : "Conic freezer",
                         "capacidad" : "0.40 Lts", 
-                        "medida" : "ø 8 X 10 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8 x 10 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/991.jpg"																		
 					},
                     "992" : {
@@ -776,8 +785,8 @@
 						"subnombre" : "Hermético vaso",
 						"subname" : "Conic freezer",
                         "capacidad" : "1.30 Lts", 
-                        "medida" : "ø 12 X 18 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 12 x 18 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/992.jpg"
                     }
                 }
@@ -793,8 +802,8 @@
 						"subnombre" : "Hermético cristal",
 						"subname" : "Cristal freezer",
                         "capacidad" : "0.40 Lts", 
-                        "medida" : "14 X 8 X 7 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "14 x 8 x 7 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/721.jpg"
 					},
                     "722" : {
@@ -802,8 +811,8 @@
 						"subnombre" : "Hermético cristal",
 						"subname" : "Cristal freezer",
                         "capacidad" : "0.60 Lts", 
-                        "medida" : "14.5 X 14.5 X 5.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "14.5 x 14.5 x 5.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/722.jpg"
 					},
                     "723" : {
@@ -811,8 +820,8 @@
 						"subnombre" : "Hermético cristal",
 						"subname" : "Cristal freezer",
                         "capacidad" : "2.2 Lts", 
-                        "medida" : "17.5 X 24 X 8.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "17.5 x 24 x 8.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/723.jpg"
 					},
                     "755" : {
@@ -820,8 +829,8 @@
 						"subnombre" : "Hermético cristal c/división",
 						"subname" : "Cristal freezer",
                         "capacidad" : "1.0 Lts", 
-                        "medida" : "22 X 13 X 7.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "22 x 13 x 7.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/755.jpg" } }
             }
         }
@@ -845,8 +854,8 @@
 						"subnombre" : "Botella con tapa/tapón",
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "0.25 Lts", 
-                        "medida" : "ø 6.5 X 11 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 6.5 x 11 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/121.jpg"
 					},
                     "122" : {
@@ -854,8 +863,8 @@
 						"subnombre" : "Botella con tapa/tapón", 
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "0.50 Lts", 
-                        "medida" : "ø 8 X 14.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8 x 14.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/122.jpg"
 					},
                     "123" : {
@@ -863,8 +872,8 @@
 						"subnombre" : "Botella con tapa/tapón", 
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "1.00 Lts", 
-                        "medida" : "ø 9 X 22 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 9 x 22 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/123.jpg"
 					},
                     "124" : {
@@ -872,8 +881,8 @@
 						"subnombre" : "Botella con tapa/tapón",
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "2.0 Lts", 
-                        "medida" : "ø 11 X 27 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 11 x 27 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/124.jpg"
                     }
                 }
@@ -889,8 +898,8 @@
 						"subnombre" : "Botella Junior",
 						"subname" : "Junior bottle",
                         "capacidad" : "0.40 Lts", 
-                        "medida" : "ø 7.8 X 16 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 7.8 x 16 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/161.jpg"
 					},
                     "162" : {
@@ -898,8 +907,8 @@
 						"subnombre" : "Botella Junior",
 						"subname" : "Sport bottle",
                         "capacidad" : "0.60 Lts", 
-                        "medida" : "ø 7.2 X 21 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 7.2 x 21 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/162.jpg"
 					},
                     "163" : {
@@ -907,8 +916,8 @@
 						"subnombre" : "Botella Junior", 
 						"subname" : "Sport bottle",
                         "capacidad" : "2.2 Lts", 
-                        "medida" : "ø 8.3 X 25.5 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8.3 x 25.5 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/163.jpg"
 					},
                     "165" : {
@@ -916,8 +925,8 @@
 						"subnombre" : "Botella Junior",
 						"subname" : "Junior bottle",
                         "capacidad" : "0.355 Lts", 
-                        "medida" : "ø 6.5 X 20 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 6.5 x 20 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/165.jpg"
 					},
                     "168" : {
@@ -925,8 +934,8 @@
 						"subnombre" : "Mini Garrafon", 
 						"subname" : "Junior bottle",
                         "capacidad" : "0.540 Lts", 
-                        "medida" : "ø 8.5 X 16 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8.5 x 16 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/168.jpg"
 					},
                     "2305" : {
@@ -934,8 +943,8 @@
 						"subnombre" : "Botella Slim Sport",
 						"subname" : "Slim Sport bottle",
                         "capacidad" : "0.600 Lts", 
-                        "medida" : "ø 8 X 21 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8 x 21 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/2305.jpg"
 					},
                     "2312" : {
@@ -943,8 +952,8 @@
 						"subnombre" : "Botella Slim Sport",
 						"subname" : "Slim Sport bottle",
                         "capacidad" : "0.350 Lts", 
-                        "medida" : "ø 8 X 16 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "medida" : "ø 8 x 16 cms", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/2312.jpg" 																	
                     }
                 }
@@ -961,7 +970,7 @@
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "0.4005 Lts", 
                         "medida" : "ø 7.5 x 14 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/131.jpg"
 					},
                     "132" : {
@@ -970,7 +979,7 @@
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "0.590 Lts", 
                         "medida" : "ø 8.5 x 21 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/132.jpg"
 					},
                     "133" : {
@@ -979,7 +988,7 @@
 						"subname" : "Refrigerator bottle",
                         "capacidad" : "0.945 Lts", 
                         "medida" : "ø 8.5 x 21 cms", 
-                        "piezas" : "24 Pzas.", 
+                        "piezas" : "24", 
                         "imagen" : "images/productos/133.jpg"} }			
             }
         }
@@ -1003,8 +1012,8 @@
 						"subnombre" : "Cubeta 14 Lts.",
 						"subname" : "Deluxe pail",
                         "capacidad" : "140 Lts", 
-                        "medida" : "ø 31 X 26 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 31 x 26 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/400.jpg"
 					},
                     "412" : {
@@ -1013,7 +1022,7 @@
 						"subname" : "Pail", 
                         "capacidad" : "11 Lts", 
                         "medida" : "ø 8.5 x 21 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/412.jpg"
 					},
                     "415" : {
@@ -1021,8 +1030,8 @@
 						"subnombre" : "Cubeta gigante",
 						"subname" : "Pail",
                         "capacidad" : "17 Lts", 
-                        "medida" : "ø 30 X 29 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 30 x 29 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/415.jpg"
 						},
                     "435" : {
@@ -1030,8 +1039,8 @@
 						"subnombre" : "Cubeta 10 Lts.",
 						"subname" : "Pail",
                         "capacidad" : "10 Lts", 
-                        "medida" : "ø 27 X 25 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 27 x 25 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/435.jpg"
 						},
                     "940" : {
@@ -1039,8 +1048,8 @@
 						"subnombre" : "Cubeta doble vertedero 10 Lts",
 						"subname" : "Pail", 
                         "capacidad" : "10 Lts", 
-                        "medida" : "ø 28 X 24 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 28 x 24 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/940.jpg"
                     }
                 }								
@@ -1056,8 +1065,8 @@
 						"subnombre" : "Recogedor",
 						"subname" : "Dust pan",
 						"capacidad" : "",
-                        "medida" : "25 X 21 X 4 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "25 x 21 x 4 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/943.jpg"
 					},
                     "950" : {
@@ -1065,8 +1074,8 @@
 						"subnombre" : "Recogedor con recipiente interior",
 						"subname" : "Deluxe dust pan",
                         "capacidad" : "", 
-                        "medida" : "25 X 27 X 5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "25 x 27 x 5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/950.jpg"} }
             }
         }
@@ -1090,8 +1099,8 @@
 						"subnombre" : "Cesto calado para ropa",
 						"subname" : "Laundry basket",
                         "capacidad" : "38 Lts", 
-                        "medida" : "ø 42 X 31 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 42 x 31 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/323.jpg"
 					},
                     "510" : {
@@ -1099,8 +1108,8 @@
 						"subnombre" : "Cesto redondo",
 						"subname" : "Round wastebasket",
                         "capacidad" : "8 Lts", 
-                        "medida" : "ø 27 X 25 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 27 x 25 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/510.jpg"
 					},
                     "512" : {
@@ -1108,8 +1117,8 @@
 						"subnombre" : "Cesto redondo olanes",
 						"subname" : "Round wastebasket",
                         "capacidad" : "9 Lts", 
-                        "medida" : "ø 25 X 29 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 25 x 29 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/512.jpg"
 					},
                     "515" : {
@@ -1117,8 +1126,8 @@
 						"subnombre" : "Cesto redondo calado",
 						"subname" : "Round wastebasket",
                         "capacidad" : "7 Lts", 
-                        "medida" : "ø 26 X 24 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 26 x 24 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/515.jpg"
 					},
                     "550" : {
@@ -1126,8 +1135,8 @@
 						"subnombre" : "Cesto redondo grabado",
 						"subname" : "Oval wastebasket",
                         "capacidad" : "10 Lts", 
-                        "medida" : "19 X 28 X 32 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "19 x 28 x 32 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/550.jpg"
 					},
                     "555" : {
@@ -1135,8 +1144,8 @@
 						"subnombre" : "Cesto redondo grabado",
 						"subname" : "Round wastebasket",
                         "capacidad" : "7 Lts", 
-                        "medida" : "ø 21 X 26 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 21 x 26 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/555.jpg"
 					},
                     "595" : {
@@ -1144,8 +1153,8 @@
 						"subnombre" : "Bote c/tapa gira click",
 						"subname" : "Round wastebasket",
                         "capacidad" : "20 Lts", 
-                        "medida" : "ø 32 X 34 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 32 x 34 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/595.jpg"
 					},
                     "597" : {
@@ -1153,8 +1162,8 @@
 						"subnombre" : "Bote Swing con tapa de balancín",
 						"subname" : "Round wastebasket", 
                         "capacidad" : "8 Lts", 
-                        "medida" : "ø 0 X 0 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 0 x 0 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/597.jpg"																							
 					},
                     "599" : {
@@ -1162,8 +1171,8 @@
 						"subnombre" : "Bote Swing con tapa de balancín",
 						"subname" : "Round wastebasket",
                         "capacidad" : "5 Lts", 
-                        "medida" : "ø 21 X 31.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "ø 21 x 31.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/599.jpg"
                     }
                 }					
@@ -1179,8 +1188,8 @@
 						"subnombre" : "Cesto rectangular",
 						"subname" : "Rectangular wastebasket",
                         "capacidad" : "11 Lts", 
-                        "medida" : "20 X 30 X 28 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "20 x 30 x 28 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/517.jpg"
 					},
                     "520" : {
@@ -1188,8 +1197,8 @@
 						"subnombre" : "Cesto rectangular estriado",
 						"subname" : "Rectangular wastebasket",
                         "capacidad" : "11 Lts", 
-                        "medida" : "18 X 28 X 29 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "18 x 28 x 29 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/520.jpg"
 					},
                     "525" : {
@@ -1197,8 +1206,8 @@
 						"subnombre" : "Cesto rectangular de lujo",
 						"subname" : "Deluxe rectangular wastebasket",
                         "capacidad" : "12 Lts", 
-                        "medida" : "22 X 29 X 32 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "22 x 29 x 32 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/525.jpg"
 					},
                     "575" : {
@@ -1206,8 +1215,8 @@
 						"subnombre" : "Bote con tapa de balancín",
 						"subname" : "Piece swing lid bin",
                         "capacidad" : "15 Lts", 
-                        "medida" : "24 X 24 X 39 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "24 x 24 x 39 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/575.jpg"
 					},
                     "580" : {
@@ -1215,8 +1224,8 @@
 						"subnombre" : "Bote con tapa de balancín",
 						"subname" : "Piece swing lid bin",
                         "capacidad" : "24 Lts", 
-                        "medida" : "27.5 X 33 X 52.5 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "27.5 x 33 x 52.5 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/580.jpg"
 					},
                     "593" : {
@@ -1224,8 +1233,8 @@
 						"subnombre" : "Bote con tapa de balancín",
 						"subname" : "Piece swing lid bin",
                         "capacidad" : "7 Lts", 
-                        "medida" : "27 X 23.5 X 41 cms", 
-                        "piezas" : "12 Pzas.", 
+                        "medida" : "27 x 23.5 x 41 cms", 
+                        "piezas" : "12", 
                         "imagen" : "images/productos/593.jpg"} }
             }
         }
